@@ -1,0 +1,2025 @@
+{
+ "source": "ElevenLabs eleven_v4: zoya ELWVgJ5Mo9lF5Tha9ahW, girl GN4wbsbejSnGSa1AzjH5 (lifted x1.15), dry; paid plan confirmed by the operator (commercial use granted).",
+ "shippable": true,
+ "generated": "2026-11-12T16:45:44",
+ "voice": "ElevenLabs eleven_v4: zoya ELWVgJ5Mo9lF5Tha9ahW, girl GN4wbsbejSnGSa1AzjH5 (lifted x1.15)",
+ "clips": {
+  "lastochka/blackout.blue": {
+   "file": "audio/lastochka/blackout.blue.mp3",
+   "ms": 1510,
+   "speaker": "zoya",
+   "pace": 1
+  },
+  "lastochka/blackout.blue.r1": {
+   "file": "audio/lastochka/blackout.blue.r1.mp3",
+   "ms": 3049,
+   "speaker": "zoya",
+   "pace": 0.75
+  },
+  "lastochka/blackout.green": {
+   "file": "audio/lastochka/blackout.green.mp3",
+   "ms": 1386,
+   "speaker": "zoya",
+   "pace": 1
+  },
+  "lastochka/blackout.green.r1": {
+   "file": "audio/lastochka/blackout.green.r1.mp3",
+   "ms": 3149,
+   "speaker": "zoya",
+   "pace": 0.75
+  },
+  "lastochka/blackout.pump.off": {
+   "file": "audio/lastochka/blackout.pump.off.mp3",
+   "ms": 1426,
+   "speaker": "zoya",
+   "pace": 1
+  },
+  "lastochka/blackout.pump.off.r1": {
+   "file": "audio/lastochka/blackout.pump.off.r1.mp3",
+   "ms": 1649,
+   "speaker": "zoya",
+   "pace": 0.75
+  },
+  "lastochka/blackout.red": {
+   "file": "audio/lastochka/blackout.red.mp3",
+   "ms": 1625,
+   "speaker": "zoya",
+   "pace": 1
+  },
+  "lastochka/blackout.red.r1": {
+   "file": "audio/lastochka/blackout.red.r1.mp3",
+   "ms": 2990,
+   "speaker": "zoya",
+   "pace": 0.75
+  },
+  "lastochka/ch1.blackout.again": {
+   "file": "audio/lastochka/ch1.blackout.again.mp3",
+   "ms": 6020,
+   "speaker": "zoya",
+   "pace": 1
+  },
+  "lastochka/ch1.blackout.alarm": {
+   "file": "audio/lastochka/ch1.blackout.alarm.mp3",
+   "ms": 2168,
+   "speaker": "zoya",
+   "pace": 1
+  },
+  "lastochka/ch1.blackout.back": {
+   "file": "audio/lastochka/ch1.blackout.back.mp3",
+   "ms": 4240,
+   "speaker": "zoya",
+   "pace": 1
+  },
+  "lastochka/ch1.blackout.brief": {
+   "file": "audio/lastochka/ch1.blackout.brief.mp3",
+   "ms": 4512,
+   "speaker": "zoya",
+   "pace": 1
+  },
+  "lastochka/ch1.blackout.lost": {
+   "file": "audio/lastochka/ch1.blackout.lost.mp3",
+   "ms": 1358,
+   "speaker": "zoya",
+   "pace": 1
+  },
+  "lastochka/ch1.blackout.step1": {
+   "file": "audio/lastochka/ch1.blackout.step1.mp3",
+   "ms": 1426,
+   "speaker": "zoya",
+   "pace": 1
+  },
+  "lastochka/ch1.blackout.step1.r1": {
+   "file": "audio/lastochka/ch1.blackout.step1.r1.mp3",
+   "ms": 1649,
+   "speaker": "zoya",
+   "pace": 0.75
+  },
+  "lastochka/ch1.blackout.step2": {
+   "file": "audio/lastochka/ch1.blackout.step2.mp3",
+   "ms": 1510,
+   "speaker": "zoya",
+   "pace": 1
+  },
+  "lastochka/ch1.blackout.step2.r1": {
+   "file": "audio/lastochka/ch1.blackout.step2.r1.mp3",
+   "ms": 3049,
+   "speaker": "zoya",
+   "pace": 0.75
+  },
+  "lastochka/ch1.blackout.step3": {
+   "file": "audio/lastochka/ch1.blackout.step3.mp3",
+   "ms": 1625,
+   "speaker": "zoya",
+   "pace": 1
+  },
+  "lastochka/ch1.blackout.step3.r1": {
+   "file": "audio/lastochka/ch1.blackout.step3.r1.mp3",
+   "ms": 2990,
+   "speaker": "zoya",
+   "pace": 0.75
+  },
+  "lastochka/ch1.end.window": {
+   "file": "audio/lastochka/ch1.end.window.mp3",
+   "ms": 2159,
+   "speaker": "zoya",
+   "pace": 1
+  },
+  "lastochka/ch1.end.window.r1": {
+   "file": "audio/lastochka/ch1.end.window.r1.mp3",
+   "ms": 2507,
+   "speaker": "zoya",
+   "pace": 0.75
+  },
+  "lastochka/ch1.finale.bye": {
+   "file": "audio/lastochka/ch1.finale.bye.mp3",
+   "ms": 1798,
+   "speaker": "zoya",
+   "pace": 1
+  },
+  "lastochka/ch1.finale.listen": {
+   "file": "audio/lastochka/ch1.finale.listen.mp3",
+   "ms": 1809,
+   "speaker": "zoya",
+   "pace": 1
+  },
+  "lastochka/ch1.finale.probe": {
+   "file": "audio/lastochka/ch1.finale.probe.mp3",
+   "ms": 5145,
+   "speaker": "zoya",
+   "pace": 1
+  },
+  "lastochka/ch1.finale.s1": {
+   "file": "audio/lastochka/ch1.finale.s1.mp3",
+   "ms": 1510,
+   "speaker": "signal",
+   "pace": 1,
+   "sentences": [
+    {
+     "index": 0,
+     "fromMs": 0,
+     "toMs": 1510
+    }
+   ],
+   "words": [
+    {
+     "ru": "Ла́сточка",
+     "fromMs": 0,
+     "toMs": 906
+    },
+    {
+     "ru": "приём",
+     "fromMs": 906,
+     "toMs": 1510
+    }
+   ]
+  },
+  "lastochka/ch1.finale.s1.r1": {
+   "file": "audio/lastochka/ch1.finale.s1.r1.mp3",
+   "ms": 1786,
+   "speaker": "signal",
+   "pace": 0.75,
+   "sentences": [
+    {
+     "index": 0,
+     "fromMs": 0,
+     "toMs": 1786
+    }
+   ],
+   "words": [
+    {
+     "ru": "Ла́сточка",
+     "fromMs": 0,
+     "toMs": 1071
+    },
+    {
+     "ru": "приём",
+     "fromMs": 1071,
+     "toMs": 1786
+    }
+   ]
+  },
+  "lastochka/ch1.finale.s2": {
+   "file": "audio/lastochka/ch1.finale.s2.mp3",
+   "ms": 1212,
+   "speaker": "signal",
+   "pace": 1,
+   "sentences": [
+    {
+     "index": 1,
+     "fromMs": 0,
+     "toMs": 1212
+    }
+   ],
+   "words": [
+    {
+     "ru": "Я",
+     "fromMs": 0,
+     "toMs": 404
+    },
+    {
+     "ru": "Зо́я",
+     "fromMs": 404,
+     "toMs": 1212
+    }
+   ]
+  },
+  "lastochka/ch1.finale.s2.r1": {
+   "file": "audio/lastochka/ch1.finale.s2.r1.mp3",
+   "ms": 1415,
+   "speaker": "signal",
+   "pace": 0.75,
+   "sentences": [
+    {
+     "index": 1,
+     "fromMs": 0,
+     "toMs": 1415
+    }
+   ],
+   "words": [
+    {
+     "ru": "Я",
+     "fromMs": 0,
+     "toMs": 472
+    },
+    {
+     "ru": "Зо́я",
+     "fromMs": 472,
+     "toMs": 1415
+    }
+   ]
+  },
+  "lastochka/ch1.finale.s3": {
+   "file": "audio/lastochka/ch1.finale.s3.mp3",
+   "ms": 1556,
+   "speaker": "signal",
+   "pace": 1,
+   "sentences": [
+    {
+     "index": 2,
+     "fromMs": 0,
+     "toMs": 1556
+    }
+   ],
+   "words": [
+    {
+     "ru": "Мне",
+     "fromMs": 0,
+     "toMs": 389
+    },
+    {
+     "ru": "де́вять",
+     "fromMs": 389,
+     "toMs": 1167
+    },
+    {
+     "ru": "лет",
+     "fromMs": 1167,
+     "toMs": 1556
+    }
+   ]
+  },
+  "lastochka/ch1.finale.s4": {
+   "file": "audio/lastochka/ch1.finale.s4.mp3",
+   "ms": 1670,
+   "speaker": "signal",
+   "pace": 1,
+   "sentences": [
+    {
+     "index": 3,
+     "fromMs": 0,
+     "toMs": 1670
+    }
+   ],
+   "words": [
+    {
+     "ru": "Я",
+     "fromMs": 0,
+     "toMs": 334
+    },
+    {
+     "ru": "ви́жу",
+     "fromMs": 334,
+     "toMs": 1002
+    },
+    {
+     "ru": "Луну́",
+     "fromMs": 1002,
+     "toMs": 1670
+    }
+   ]
+  },
+  "lastochka/ch1.finale.s4.r1": {
+   "file": "audio/lastochka/ch1.finale.s4.r1.mp3",
+   "ms": 1872,
+   "speaker": "signal",
+   "pace": 0.75,
+   "sentences": [
+    {
+     "index": 3,
+     "fromMs": 0,
+     "toMs": 1872
+    }
+   ],
+   "words": [
+    {
+     "ru": "Я",
+     "fromMs": 0,
+     "toMs": 374
+    },
+    {
+     "ru": "ви́жу",
+     "fromMs": 374,
+     "toMs": 1123
+    },
+    {
+     "ru": "Луну́",
+     "fromMs": 1123,
+     "toMs": 1872
+    }
+   ]
+  },
+  "lastochka/ch1.finale.s5": {
+   "file": "audio/lastochka/ch1.finale.s5.mp3",
+   "ms": 1665,
+   "speaker": "signal",
+   "pace": 1,
+   "sentences": [
+    {
+     "index": 4,
+     "fromMs": 0,
+     "toMs": 1665
+    }
+   ],
+   "words": [
+    {
+     "ru": "Она́",
+     "fromMs": 0,
+     "toMs": 666
+    },
+    {
+     "ru": "больша́я",
+     "fromMs": 666,
+     "toMs": 1665
+    }
+   ]
+  },
+  "lastochka/ch1.finale.s6": {
+   "file": "audio/lastochka/ch1.finale.s6.mp3",
+   "ms": 1391,
+   "speaker": "signal",
+   "pace": 1,
+   "sentences": [
+    {
+     "index": 5,
+     "fromMs": 0,
+     "toMs": 1391
+    }
+   ],
+   "words": [
+    {
+     "ru": "Ты",
+     "fromMs": 0,
+     "toMs": 278
+    },
+    {
+     "ru": "ви́дишь",
+     "fromMs": 278,
+     "toMs": 835
+    },
+    {
+     "ru": "Зе́млю",
+     "fromMs": 835,
+     "toMs": 1391
+    }
+   ]
+  },
+  "lastochka/ch1.finale.s6.r1": {
+   "file": "audio/lastochka/ch1.finale.s6.r1.mp3",
+   "ms": 1583,
+   "speaker": "signal",
+   "pace": 0.75,
+   "sentences": [
+    {
+     "index": 5,
+     "fromMs": 0,
+     "toMs": 1583
+    }
+   ],
+   "words": [
+    {
+     "ru": "Ты",
+     "fromMs": 0,
+     "toMs": 317
+    },
+    {
+     "ru": "ви́дишь",
+     "fromMs": 317,
+     "toMs": 950
+    },
+    {
+     "ru": "Зе́млю",
+     "fromMs": 950,
+     "toMs": 1583
+    }
+   ]
+  },
+  "lastochka/ch1.finale.s7": {
+   "file": "audio/lastochka/ch1.finale.s7.mp3",
+   "ms": 1347,
+   "speaker": "signal",
+   "pace": 1,
+   "sentences": [
+    {
+     "index": 6,
+     "fromMs": 0,
+     "toMs": 1347
+    }
+   ],
+   "words": [
+    {
+     "ru": "Ты",
+     "fromMs": 0,
+     "toMs": 269
+    },
+    {
+     "ru": "меня́",
+     "fromMs": 269,
+     "toMs": 808
+    },
+    {
+     "ru": "слы́шишь",
+     "fromMs": 808,
+     "toMs": 1347
+    }
+   ]
+  },
+  "lastochka/ch1.finale.s8": {
+   "file": "audio/lastochka/ch1.finale.s8.mp3",
+   "ms": 815,
+   "speaker": "signal",
+   "pace": 1,
+   "sentences": [
+    {
+     "index": 7,
+     "fromMs": 0,
+     "toMs": 815
+    }
+   ],
+   "words": [
+    {
+     "ru": "Где",
+     "fromMs": 0,
+     "toMs": 407
+    },
+    {
+     "ru": "ты",
+     "fromMs": 407,
+     "toMs": 815
+    }
+   ]
+  },
+  "lastochka/ch1.finale.s8.r1": {
+   "file": "audio/lastochka/ch1.finale.s8.r1.mp3",
+   "ms": 936,
+   "speaker": "signal",
+   "pace": 0.75,
+   "sentences": [
+    {
+     "index": 7,
+     "fromMs": 0,
+     "toMs": 936
+    }
+   ],
+   "words": [
+    {
+     "ru": "Где",
+     "fromMs": 0,
+     "toMs": 468
+    },
+    {
+     "ru": "ты",
+     "fromMs": 468,
+     "toMs": 936
+    }
+   ]
+  },
+  "lastochka/ch1.finale.s9": {
+   "file": "audio/lastochka/ch1.finale.s9.mp3",
+   "ms": 1175,
+   "speaker": "signal",
+   "pace": 1,
+   "sentences": [
+    {
+     "index": 8,
+     "fromMs": 0,
+     "toMs": 1175
+    }
+   ],
+   "words": [
+    {
+     "ru": "Включи́",
+     "fromMs": 0,
+     "toMs": 783
+    },
+    {
+     "ru": "свет",
+     "fromMs": 783,
+     "toMs": 1175
+    }
+   ]
+  },
+  "lastochka/ch1.finale.s9.r1": {
+   "file": "audio/lastochka/ch1.finale.s9.r1.mp3",
+   "ms": 1266,
+   "speaker": "signal",
+   "pace": 0.75,
+   "sentences": [
+    {
+     "index": 8,
+     "fromMs": 0,
+     "toMs": 1266
+    }
+   ],
+   "words": [
+    {
+     "ru": "Включи́",
+     "fromMs": 0,
+     "toMs": 844
+    },
+    {
+     "ru": "свет",
+     "fromMs": 844,
+     "toMs": 1266
+    }
+   ]
+  },
+  "lastochka/ch1.finale.tomorrow": {
+   "file": "audio/lastochka/ch1.finale.tomorrow.mp3",
+   "ms": 1935,
+   "speaker": "zoya",
+   "pace": 1
+  },
+  "lastochka/ch1.finale.voice": {
+   "file": "audio/lastochka/ch1.finale.voice.mp3",
+   "ms": 2400,
+   "speaker": "zoya",
+   "pace": 1
+  },
+  "lastochka/ch1.hatch.call": {
+   "file": "audio/lastochka/ch1.hatch.call.mp3",
+   "ms": 2635,
+   "speaker": "zoya",
+   "pace": 1
+  },
+  "lastochka/ch1.launch.count": {
+   "file": "audio/lastochka/ch1.launch.count.mp3",
+   "ms": 1937,
+   "speaker": "zoya",
+   "pace": 1
+  },
+  "lastochka/ch1.launch.count.r1": {
+   "file": "audio/lastochka/ch1.launch.count.r1.mp3",
+   "ms": 3691,
+   "speaker": "zoya",
+   "pace": 0.75
+  },
+  "lastochka/ch1.launch.go": {
+   "file": "audio/lastochka/ch1.launch.go.mp3",
+   "ms": 957,
+   "speaker": "zoya",
+   "pace": 1
+  },
+  "lastochka/ch1.launch.go.r1": {
+   "file": "audio/lastochka/ch1.launch.go.r1.mp3",
+   "ms": 2319,
+   "speaker": "zoya",
+   "pace": 0.75
+  },
+  "lastochka/ch1.launch.hold": {
+   "file": "audio/lastochka/ch1.launch.hold.mp3",
+   "ms": 2195,
+   "speaker": "zoya",
+   "pace": 1
+  },
+  "lastochka/ch1.launch.key": {
+   "file": "audio/lastochka/ch1.launch.key.mp3",
+   "ms": 1216,
+   "speaker": "zoya",
+   "pace": 1
+  },
+  "lastochka/ch1.launch.key.r1": {
+   "file": "audio/lastochka/ch1.launch.key.r1.mp3",
+   "ms": 2624,
+   "speaker": "zoya",
+   "pace": 0.75
+  },
+  "lastochka/ch1.launch.ready": {
+   "file": "audio/lastochka/ch1.launch.ready.mp3",
+   "ms": 1699,
+   "speaker": "zoya",
+   "pace": 1
+  },
+  "lastochka/ch1.launch.ready.ack": {
+   "file": "audio/lastochka/ch1.launch.ready.ack.mp3",
+   "ms": 3077,
+   "speaker": "zoya",
+   "pace": 1
+  },
+  "lastochka/ch1.launch.ready.r1": {
+   "file": "audio/lastochka/ch1.launch.ready.r1.mp3",
+   "ms": 1715,
+   "speaker": "zoya",
+   "pace": 0.75
+  },
+  "lastochka/ch1.light.ack": {
+   "file": "audio/lastochka/ch1.light.ack.mp3",
+   "ms": 942,
+   "speaker": "zoya",
+   "pace": 1
+  },
+  "lastochka/ch1.light.on": {
+   "file": "audio/lastochka/ch1.light.on.mp3",
+   "ms": 1210,
+   "speaker": "zoya",
+   "pace": 1
+  },
+  "lastochka/ch1.light.on.r1": {
+   "file": "audio/lastochka/ch1.light.on.r1.mp3",
+   "ms": 2541,
+   "speaker": "zoya",
+   "pace": 0.75
+  },
+  "lastochka/ch1.orbit.earth": {
+   "file": "audio/lastochka/ch1.orbit.earth.mp3",
+   "ms": 2245,
+   "speaker": "zoya",
+   "pace": 1
+  },
+  "lastochka/ch1.orbit.earth.r1": {
+   "file": "audio/lastochka/ch1.orbit.earth.r1.mp3",
+   "ms": 2871,
+   "speaker": "zoya",
+   "pace": 0.75
+  },
+  "lastochka/ch1.orbit.never": {
+   "file": "audio/lastochka/ch1.orbit.never.mp3",
+   "ms": 3808,
+   "speaker": "zoya",
+   "pace": 1
+  },
+  "lastochka/ch1.orbit.pen": {
+   "file": "audio/lastochka/ch1.orbit.pen.mp3",
+   "ms": 3119,
+   "speaker": "zoya",
+   "pace": 1
+  },
+  "lastochka/ch1.orbit.pen.thanks": {
+   "file": "audio/lastochka/ch1.orbit.pen.thanks.mp3",
+   "ms": 2689,
+   "speaker": "zoya",
+   "pace": 1
+  },
+  "lastochka/ch1.pre.blue": {
+   "file": "audio/lastochka/ch1.pre.blue.mp3",
+   "ms": 1510,
+   "speaker": "zoya",
+   "pace": 1
+  },
+  "lastochka/ch1.pre.blue.ack": {
+   "file": "audio/lastochka/ch1.pre.blue.ack.mp3",
+   "ms": 2136,
+   "speaker": "zoya",
+   "pace": 1
+  },
+  "lastochka/ch1.pre.blue.r1": {
+   "file": "audio/lastochka/ch1.pre.blue.r1.mp3",
+   "ms": 3049,
+   "speaker": "zoya",
+   "pace": 0.75
+  },
+  "lastochka/ch1.pre.blue.recall": {
+   "file": "audio/lastochka/ch1.pre.blue.recall.mp3",
+   "ms": 1510,
+   "speaker": "zoya",
+   "pace": 1
+  },
+  "lastochka/ch1.pre.blue.recall.r1": {
+   "file": "audio/lastochka/ch1.pre.blue.recall.r1.mp3",
+   "ms": 3049,
+   "speaker": "zoya",
+   "pace": 0.75
+  },
+  "lastochka/ch1.pre.button": {
+   "file": "audio/lastochka/ch1.pre.button.mp3",
+   "ms": 1329,
+   "speaker": "zoya",
+   "pace": 1
+  },
+  "lastochka/ch1.pre.button.r1": {
+   "file": "audio/lastochka/ch1.pre.button.r1.mp3",
+   "ms": 2781,
+   "speaker": "zoya",
+   "pace": 0.75
+  },
+  "lastochka/ch1.pre.count": {
+   "file": "audio/lastochka/ch1.pre.count.mp3",
+   "ms": 4303,
+   "speaker": "zoya",
+   "pace": 1
+  },
+  "lastochka/ch1.pre.count.ack": {
+   "file": "audio/lastochka/ch1.pre.count.ack.mp3",
+   "ms": 1709,
+   "speaker": "zoya",
+   "pace": 1
+  },
+  "lastochka/ch1.pre.count.r1": {
+   "file": "audio/lastochka/ch1.pre.count.r1.mp3",
+   "ms": 5701,
+   "speaker": "zoya",
+   "pace": 0.75
+  },
+  "lastochka/ch1.pre.count.r2": {
+   "file": "audio/lastochka/ch1.pre.count.r2.mp3",
+   "ms": 3580,
+   "speaker": "zoya",
+   "pace": 0.75
+  },
+  "lastochka/ch1.pre.green.ack": {
+   "file": "audio/lastochka/ch1.pre.green.ack.mp3",
+   "ms": 2250,
+   "speaker": "zoya",
+   "pace": 1
+  },
+  "lastochka/ch1.pre.moon": {
+   "file": "audio/lastochka/ch1.pre.moon.mp3",
+   "ms": 1159,
+   "speaker": "zoya",
+   "pace": 1
+  },
+  "lastochka/ch1.pre.moon.ack": {
+   "file": "audio/lastochka/ch1.pre.moon.ack.mp3",
+   "ms": 1269,
+   "speaker": "zoya",
+   "pace": 1
+  },
+  "lastochka/ch1.pre.moon.r1": {
+   "file": "audio/lastochka/ch1.pre.moon.r1.mp3",
+   "ms": 2600,
+   "speaker": "zoya",
+   "pace": 0.75
+  },
+  "lastochka/ch1.pre.pump.ack": {
+   "file": "audio/lastochka/ch1.pre.pump.ack.mp3",
+   "ms": 942,
+   "speaker": "zoya",
+   "pace": 1
+  },
+  "lastochka/ch1.pre.pump.on": {
+   "file": "audio/lastochka/ch1.pre.pump.on.mp3",
+   "ms": 1303,
+   "speaker": "zoya",
+   "pace": 1
+  },
+  "lastochka/ch1.pre.pump.on.r1": {
+   "file": "audio/lastochka/ch1.pre.pump.on.r1.mp3",
+   "ms": 2801,
+   "speaker": "zoya",
+   "pace": 0.75
+  },
+  "lastochka/ch1.pre.radio": {
+   "file": "audio/lastochka/ch1.pre.radio.mp3",
+   "ms": 1186,
+   "speaker": "zoya",
+   "pace": 1
+  },
+  "lastochka/ch1.pre.radio.r1": {
+   "file": "audio/lastochka/ch1.pre.radio.r1.mp3",
+   "ms": 2657,
+   "speaker": "zoya",
+   "pace": 0.75
+  },
+  "lastochka/ch1.pre.red": {
+   "file": "audio/lastochka/ch1.pre.red.mp3",
+   "ms": 1625,
+   "speaker": "zoya",
+   "pace": 1
+  },
+  "lastochka/ch1.pre.red.ack": {
+   "file": "audio/lastochka/ch1.pre.red.ack.mp3",
+   "ms": 2156,
+   "speaker": "zoya",
+   "pace": 1
+  },
+  "lastochka/ch1.pre.red.r1": {
+   "file": "audio/lastochka/ch1.pre.red.r1.mp3",
+   "ms": 2990,
+   "speaker": "zoya",
+   "pace": 0.75
+  },
+  "lastochka/ch1.pre.red.recall": {
+   "file": "audio/lastochka/ch1.pre.red.recall.mp3",
+   "ms": 1625,
+   "speaker": "zoya",
+   "pace": 1
+  },
+  "lastochka/ch1.pre.red.recall.r1": {
+   "file": "audio/lastochka/ch1.pre.red.recall.r1.mp3",
+   "ms": 2990,
+   "speaker": "zoya",
+   "pace": 0.75
+  },
+  "lastochka/ch1.pre.where": {
+   "file": "audio/lastochka/ch1.pre.where.mp3",
+   "ms": 986,
+   "speaker": "zoya",
+   "pace": 1
+  },
+  "lastochka/ch1.pre.where.ack": {
+   "file": "audio/lastochka/ch1.pre.where.ack.mp3",
+   "ms": 853,
+   "speaker": "zoya",
+   "pace": 1
+  },
+  "lastochka/ch1.pre.where.r1": {
+   "file": "audio/lastochka/ch1.pre.where.r1.mp3",
+   "ms": 2268,
+   "speaker": "zoya",
+   "pace": 0.75
+  },
+  "lastochka/ch1.sig1.hush": {
+   "file": "audio/lastochka/ch1.sig1.hush.mp3",
+   "ms": 1962,
+   "speaker": "zoya",
+   "pace": 1
+  },
+  "lastochka/ch1.sig1.message": {
+   "file": "audio/lastochka/ch1.sig1.message.mp3",
+   "ms": 15381,
+   "speaker": "signal",
+   "pace": 1,
+   "sentences": [
+    {
+     "index": 0,
+     "fromMs": 0,
+     "toMs": 1510
+    },
+    {
+     "index": 1,
+     "fromMs": 1890,
+     "toMs": 3102
+    },
+    {
+     "index": 2,
+     "fromMs": 3482,
+     "toMs": 5037
+    },
+    {
+     "index": 3,
+     "fromMs": 5417,
+     "toMs": 7087
+    },
+    {
+     "index": 4,
+     "fromMs": 7467,
+     "toMs": 9133
+    },
+    {
+     "index": 5,
+     "fromMs": 9513,
+     "toMs": 10904
+    },
+    {
+     "index": 6,
+     "fromMs": 11284,
+     "toMs": 12631
+    },
+    {
+     "index": 7,
+     "fromMs": 13011,
+     "toMs": 13826
+    },
+    {
+     "index": 8,
+     "fromMs": 14206,
+     "toMs": 15381
+    }
+   ],
+   "words": [
+    {
+     "ru": "Ла́сточка",
+     "fromMs": 0,
+     "toMs": 906
+    },
+    {
+     "ru": "приём",
+     "fromMs": 906,
+     "toMs": 1510
+    },
+    {
+     "ru": "Я",
+     "fromMs": 1890,
+     "toMs": 2294
+    },
+    {
+     "ru": "Зо́я",
+     "fromMs": 2294,
+     "toMs": 3102
+    },
+    {
+     "ru": "Мне",
+     "fromMs": 3482,
+     "toMs": 3871
+    },
+    {
+     "ru": "де́вять",
+     "fromMs": 3871,
+     "toMs": 4648
+    },
+    {
+     "ru": "лет",
+     "fromMs": 4648,
+     "toMs": 5037
+    },
+    {
+     "ru": "Я",
+     "fromMs": 5417,
+     "toMs": 5751
+    },
+    {
+     "ru": "ви́жу",
+     "fromMs": 5751,
+     "toMs": 6419
+    },
+    {
+     "ru": "Луну́",
+     "fromMs": 6419,
+     "toMs": 7087
+    },
+    {
+     "ru": "Она́",
+     "fromMs": 7467,
+     "toMs": 8133
+    },
+    {
+     "ru": "больша́я",
+     "fromMs": 8133,
+     "toMs": 9133
+    },
+    {
+     "ru": "Ты",
+     "fromMs": 9513,
+     "toMs": 9791
+    },
+    {
+     "ru": "ви́дишь",
+     "fromMs": 9791,
+     "toMs": 10347
+    },
+    {
+     "ru": "Зе́млю",
+     "fromMs": 10347,
+     "toMs": 10904
+    },
+    {
+     "ru": "Ты",
+     "fromMs": 11284,
+     "toMs": 11553
+    },
+    {
+     "ru": "меня́",
+     "fromMs": 11553,
+     "toMs": 12092
+    },
+    {
+     "ru": "слы́шишь",
+     "fromMs": 12092,
+     "toMs": 12631
+    },
+    {
+     "ru": "Где",
+     "fromMs": 13011,
+     "toMs": 13418
+    },
+    {
+     "ru": "ты",
+     "fromMs": 13418,
+     "toMs": 13826
+    },
+    {
+     "ru": "Включи́",
+     "fromMs": 14206,
+     "toMs": 14989
+    },
+    {
+     "ru": "свет",
+     "fromMs": 14989,
+     "toMs": 15381
+    }
+   ]
+  },
+  "lastochka/ch1.sig1.message.r1": {
+   "file": "audio/lastochka/ch1.sig1.message.r1.mp3",
+   "ms": 17310,
+   "speaker": "signal",
+   "pace": 0.75,
+   "sentences": [
+    {
+     "index": 0,
+     "fromMs": 0,
+     "toMs": 1786
+    },
+    {
+     "index": 1,
+     "fromMs": 2166,
+     "toMs": 3581
+    },
+    {
+     "index": 2,
+     "fromMs": 3961,
+     "toMs": 5758
+    },
+    {
+     "index": 3,
+     "fromMs": 6138,
+     "toMs": 8010
+    },
+    {
+     "index": 4,
+     "fromMs": 8390,
+     "toMs": 10427
+    },
+    {
+     "index": 5,
+     "fromMs": 10807,
+     "toMs": 12390
+    },
+    {
+     "index": 6,
+     "fromMs": 12770,
+     "toMs": 14348
+    },
+    {
+     "index": 7,
+     "fromMs": 14728,
+     "toMs": 15664
+    },
+    {
+     "index": 8,
+     "fromMs": 16044,
+     "toMs": 17310
+    }
+   ],
+   "words": [
+    {
+     "ru": "Ла́сточка",
+     "fromMs": 0,
+     "toMs": 1071
+    },
+    {
+     "ru": "приём",
+     "fromMs": 1071,
+     "toMs": 1786
+    },
+    {
+     "ru": "Я",
+     "fromMs": 2166,
+     "toMs": 2637
+    },
+    {
+     "ru": "Зо́я",
+     "fromMs": 2637,
+     "toMs": 3581
+    },
+    {
+     "ru": "Мне",
+     "fromMs": 3961,
+     "toMs": 4410
+    },
+    {
+     "ru": "де́вять",
+     "fromMs": 4410,
+     "toMs": 5309
+    },
+    {
+     "ru": "лет",
+     "fromMs": 5309,
+     "toMs": 5758
+    },
+    {
+     "ru": "Я",
+     "fromMs": 6138,
+     "toMs": 6512
+    },
+    {
+     "ru": "ви́жу",
+     "fromMs": 6512,
+     "toMs": 7261
+    },
+    {
+     "ru": "Луну́",
+     "fromMs": 7261,
+     "toMs": 8010
+    },
+    {
+     "ru": "Она́",
+     "fromMs": 8390,
+     "toMs": 9204
+    },
+    {
+     "ru": "больша́я",
+     "fromMs": 9204,
+     "toMs": 10427
+    },
+    {
+     "ru": "Ты",
+     "fromMs": 10807,
+     "toMs": 11123
+    },
+    {
+     "ru": "ви́дишь",
+     "fromMs": 11123,
+     "toMs": 11757
+    },
+    {
+     "ru": "Зе́млю",
+     "fromMs": 11757,
+     "toMs": 12390
+    },
+    {
+     "ru": "Ты",
+     "fromMs": 12770,
+     "toMs": 13086
+    },
+    {
+     "ru": "меня́",
+     "fromMs": 13086,
+     "toMs": 13717
+    },
+    {
+     "ru": "слы́шишь",
+     "fromMs": 13717,
+     "toMs": 14348
+    },
+    {
+     "ru": "Где",
+     "fromMs": 14728,
+     "toMs": 15196
+    },
+    {
+     "ru": "ты",
+     "fromMs": 15196,
+     "toMs": 15664
+    },
+    {
+     "ru": "Включи́",
+     "fromMs": 16044,
+     "toMs": 16888
+    },
+    {
+     "ru": "свет",
+     "fromMs": 16888,
+     "toMs": 17310
+    }
+   ]
+  },
+  "lastochka/ch1.sig1.react": {
+   "file": "audio/lastochka/ch1.sig1.react.mp3",
+   "ms": 3830,
+   "speaker": "zoya",
+   "pace": 1
+  },
+  "lastochka/ch1.vy.ack": {
+   "file": "audio/lastochka/ch1.vy.ack.mp3",
+   "ms": 815,
+   "speaker": "zoya",
+   "pace": 1
+  },
+  "lastochka/ch1.vy.light.off": {
+   "file": "audio/lastochka/ch1.vy.light.off.mp3",
+   "ms": 1146,
+   "speaker": "zoya",
+   "pace": 1
+  },
+  "lastochka/ch1.vy.light.off.r1": {
+   "file": "audio/lastochka/ch1.vy.light.off.r1.mp3",
+   "ms": 1397,
+   "speaker": "zoya",
+   "pace": 0.75
+  },
+  "lastochka/ch1.vy.light.off.r2": {
+   "file": "audio/lastochka/ch1.vy.light.off.r2.mp3",
+   "ms": 2440,
+   "speaker": "zoya",
+   "pace": 0.75
+  },
+  "lastochka/ch1.vy.light.on": {
+   "file": "audio/lastochka/ch1.vy.light.on.mp3",
+   "ms": 1210,
+   "speaker": "zoya",
+   "pace": 1
+  },
+  "lastochka/ch1.vy.light.on.r1": {
+   "file": "audio/lastochka/ch1.vy.light.on.r1.mp3",
+   "ms": 2064,
+   "speaker": "zoya",
+   "pace": 0.75
+  },
+  "lastochka/ch1.vy.pump.off": {
+   "file": "audio/lastochka/ch1.vy.pump.off.mp3",
+   "ms": 1426,
+   "speaker": "zoya",
+   "pace": 1
+  },
+  "lastochka/ch1.vy.pump.off.ack": {
+   "file": "audio/lastochka/ch1.vy.pump.off.ack.mp3",
+   "ms": 2050,
+   "speaker": "zoya",
+   "pace": 1
+  },
+  "lastochka/ch1.vy.pump.off.r1": {
+   "file": "audio/lastochka/ch1.vy.pump.off.r1.mp3",
+   "ms": 1649,
+   "speaker": "zoya",
+   "pace": 0.75
+  },
+  "lastochka/ch1.vy.pump.off.r2": {
+   "file": "audio/lastochka/ch1.vy.pump.off.r2.mp3",
+   "ms": 2448,
+   "speaker": "zoya",
+   "pace": 0.75
+  },
+  "lastochka/ch1.vy.pump.on": {
+   "file": "audio/lastochka/ch1.vy.pump.on.mp3",
+   "ms": 1303,
+   "speaker": "zoya",
+   "pace": 1
+  },
+  "lastochka/ch1.vy.pump.on.r1": {
+   "file": "audio/lastochka/ch1.vy.pump.on.r1.mp3",
+   "ms": 2230,
+   "speaker": "zoya",
+   "pace": 0.75
+  },
+  "lastochka/ch1.write.ack": {
+   "file": "audio/lastochka/ch1.write.ack.mp3",
+   "ms": 969,
+   "speaker": "zoya",
+   "pace": 1
+  },
+  "lastochka/ch1.write.dark": {
+   "file": "audio/lastochka/ch1.write.dark.mp3",
+   "ms": 1146,
+   "speaker": "zoya",
+   "pace": 1
+  },
+  "lastochka/ch1.write.dark.r1": {
+   "file": "audio/lastochka/ch1.write.dark.r1.mp3",
+   "ms": 1397,
+   "speaker": "zoya",
+   "pace": 0.75
+  },
+  "lastochka/ch1.write.memory": {
+   "file": "audio/lastochka/ch1.write.memory.mp3",
+   "ms": 2394,
+   "speaker": "zoya",
+   "pace": 1
+  },
+  "lastochka/ch1.write.memory.r1": {
+   "file": "audio/lastochka/ch1.write.memory.r1.mp3",
+   "ms": 2373,
+   "speaker": "zoya",
+   "pace": 0.75
+  },
+  "lastochka/ch1.write.moon": {
+   "file": "audio/lastochka/ch1.write.moon.mp3",
+   "ms": 1159,
+   "speaker": "zoya",
+   "pace": 1
+  },
+  "lastochka/ch1.write.moon.ack": {
+   "file": "audio/lastochka/ch1.write.moon.ack.mp3",
+   "ms": 769,
+   "speaker": "zoya",
+   "pace": 1
+  },
+  "lastochka/ch1.write.moon.r1": {
+   "file": "audio/lastochka/ch1.write.moon.r1.mp3",
+   "ms": 2600,
+   "speaker": "zoya",
+   "pace": 0.75
+  },
+  "lastochka/ch1.write.trace": {
+   "file": "audio/lastochka/ch1.write.trace.mp3",
+   "ms": 1886,
+   "speaker": "zoya",
+   "pace": 1
+  },
+  "lastochka/ch1.write.trace.r1": {
+   "file": "audio/lastochka/ch1.write.trace.r1.mp3",
+   "ms": 4413,
+   "speaker": "zoya",
+   "pace": 0.75
+  },
+  "lastochka/cue.repeat": {
+   "file": "audio/lastochka/cue.repeat.mp3",
+   "ms": 1088,
+   "speaker": "zoya",
+   "pace": 1
+  },
+  "lastochka/cue.signal-repeat": {
+   "file": "audio/lastochka/cue.signal-repeat.mp3",
+   "ms": 944,
+   "speaker": "zoya",
+   "pace": 1
+  },
+  "lastochka/daily.signal.1": {
+   "file": "audio/lastochka/daily.signal.1.mp3",
+   "ms": 4590,
+   "speaker": "signal",
+   "pace": 1,
+   "sentences": [
+    {
+     "index": null,
+     "fromMs": 0,
+     "toMs": 4590
+    }
+   ],
+   "words": [
+    {
+     "ru": "Ла́сточка",
+     "fromMs": 0,
+     "toMs": 861
+    },
+    {
+     "ru": "приём",
+     "fromMs": 861,
+     "toMs": 1434
+    },
+    {
+     "ru": "Ма́ма",
+     "fromMs": 1434,
+     "toMs": 2008
+    },
+    {
+     "ru": "вы́ключила",
+     "fromMs": 2008,
+     "toMs": 3155
+    },
+    {
+     "ru": "свет",
+     "fromMs": 3155,
+     "toMs": 3442
+    },
+    {
+     "ru": "А",
+     "fromMs": 3442,
+     "toMs": 3729
+    },
+    {
+     "ru": "я",
+     "fromMs": 3729,
+     "toMs": 4016
+    },
+    {
+     "ru": "не",
+     "fromMs": 4016,
+     "toMs": 4303
+    },
+    {
+     "ru": "сплю",
+     "fromMs": 4303,
+     "toMs": 4590
+    }
+   ]
+  },
+  "lastochka/daily.signal.2": {
+   "file": "audio/lastochka/daily.signal.2.mp3",
+   "ms": 3624,
+   "speaker": "signal",
+   "pace": 1,
+   "sentences": [
+    {
+     "index": null,
+     "fromMs": 0,
+     "toMs": 3624
+    }
+   ],
+   "words": [
+    {
+     "ru": "Я",
+     "fromMs": 0,
+     "toMs": 259
+    },
+    {
+     "ru": "нарисова́ла",
+     "fromMs": 259,
+     "toMs": 1553
+    },
+    {
+     "ru": "Луну́",
+     "fromMs": 1553,
+     "toMs": 2071
+    },
+    {
+     "ru": "И",
+     "fromMs": 2071,
+     "toMs": 2330
+    },
+    {
+     "ru": "тебя́",
+     "fromMs": 2330,
+     "toMs": 2847
+    },
+    {
+     "ru": "Ла́сточка",
+     "fromMs": 2847,
+     "toMs": 3624
+    }
+   ]
+  },
+  "lastochka/daily.signal.3": {
+   "file": "audio/lastochka/daily.signal.3.mp3",
+   "ms": 3402,
+   "speaker": "signal",
+   "pace": 1,
+   "sentences": [
+    {
+     "index": null,
+     "fromMs": 0,
+     "toMs": 3402
+    }
+   ],
+   "words": [
+    {
+     "ru": "Я",
+     "fromMs": 0,
+     "toMs": 227
+    },
+    {
+     "ru": "нажима́ю",
+     "fromMs": 227,
+     "toMs": 1134
+    },
+    {
+     "ru": "кра́сную",
+     "fromMs": 1134,
+     "toMs": 1814
+    },
+    {
+     "ru": "кно́пку",
+     "fromMs": 1814,
+     "toMs": 2268
+    },
+    {
+     "ru": "Ты",
+     "fromMs": 2268,
+     "toMs": 2495
+    },
+    {
+     "ru": "меня́",
+     "fromMs": 2495,
+     "toMs": 2948
+    },
+    {
+     "ru": "слы́шишь",
+     "fromMs": 2948,
+     "toMs": 3402
+    }
+   ]
+  },
+  "lastochka/daily.signal.4": {
+   "file": "audio/lastochka/daily.signal.4.mp3",
+   "ms": 2442,
+   "speaker": "signal",
+   "pace": 1,
+   "sentences": [
+    {
+     "index": null,
+     "fromMs": 0,
+     "toMs": 2442
+    }
+   ],
+   "words": [
+    {
+     "ru": "Я",
+     "fromMs": 0,
+     "toMs": 305
+    },
+    {
+     "ru": "включи́ла",
+     "fromMs": 305,
+     "toMs": 1221
+    },
+    {
+     "ru": "свет",
+     "fromMs": 1221,
+     "toMs": 1526
+    },
+    {
+     "ru": "Ты",
+     "fromMs": 1526,
+     "toMs": 1832
+    },
+    {
+     "ru": "ви́дишь",
+     "fromMs": 1832,
+     "toMs": 2442
+    }
+   ]
+  },
+  "lastochka/daily.signal.5": {
+   "file": "audio/lastochka/daily.signal.5.mp3",
+   "ms": 3025,
+   "speaker": "signal",
+   "pace": 1,
+   "sentences": [
+    {
+     "index": null,
+     "fromMs": 0,
+     "toMs": 3025
+    }
+   ],
+   "words": [
+    {
+     "ru": "Когда́",
+     "fromMs": 0,
+     "toMs": 465
+    },
+    {
+     "ru": "я",
+     "fromMs": 465,
+     "toMs": 698
+    },
+    {
+     "ru": "вы́расту",
+     "fromMs": 698,
+     "toMs": 1396
+    },
+    {
+     "ru": "я",
+     "fromMs": 1396,
+     "toMs": 1629
+    },
+    {
+     "ru": "полечу́",
+     "fromMs": 1629,
+     "toMs": 2327
+    },
+    {
+     "ru": "на",
+     "fromMs": 2327,
+     "toMs": 2560
+    },
+    {
+     "ru": "Луну́",
+     "fromMs": 2560,
+     "toMs": 3025
+    }
+   ]
+  },
+  "lastochka/daily.word.включи": {
+   "file": "audio/lastochka/daily.word.включи.mp3",
+   "ms": 876,
+   "speaker": "zoya",
+   "pace": 1
+  },
+  "lastochka/daily.word.выключи": {
+   "file": "audio/lastochka/daily.word.выключи.mp3",
+   "ms": 910,
+   "speaker": "zoya",
+   "pace": 1
+  },
+  "lastochka/daily.word.красная": {
+   "file": "audio/lastochka/daily.word.красная.mp3",
+   "ms": 1072,
+   "speaker": "zoya",
+   "pace": 1
+  },
+  "lastochka/daily.word.луна": {
+   "file": "audio/lastochka/daily.word.луна.mp3",
+   "ms": 769,
+   "speaker": "zoya",
+   "pace": 1
+  },
+  "lastochka/daily.word.нажми": {
+   "file": "audio/lastochka/daily.word.нажми.mp3",
+   "ms": 851,
+   "speaker": "zoya",
+   "pace": 1
+  },
+  "lastochka/daily.word.насос": {
+   "file": "audio/lastochka/daily.word.насос.mp3",
+   "ms": 948,
+   "speaker": "zoya",
+   "pace": 1
+  },
+  "lastochka/daily.word.свет": {
+   "file": "audio/lastochka/daily.word.свет.mp3",
+   "ms": 681,
+   "speaker": "zoya",
+   "pace": 1
+  },
+  "lastochka/daily.word.синяя": {
+   "file": "audio/lastochka/daily.word.синяя.mp3",
+   "ms": 938,
+   "speaker": "zoya",
+   "pace": 1
+  },
+  "lastochka/lens.bed": {
+   "file": "audio/lastochka/lens.bed.mp3",
+   "ms": 835,
+   "speaker": "zoya",
+   "pace": 1
+  },
+  "lastochka/lens.board": {
+   "file": "audio/lastochka/lens.board.mp3",
+   "ms": 864,
+   "speaker": "zoya",
+   "pace": 1
+  },
+  "lastochka/lens.ceiling": {
+   "file": "audio/lastochka/lens.ceiling.mp3",
+   "ms": 1184,
+   "speaker": "zoya",
+   "pace": 1
+  },
+  "lastochka/lens.chair": {
+   "file": "audio/lastochka/lens.chair.mp3",
+   "ms": 694,
+   "speaker": "zoya",
+   "pace": 1
+  },
+  "lastochka/lens.couch": {
+   "file": "audio/lastochka/lens.couch.mp3",
+   "ms": 849,
+   "speaker": "zoya",
+   "pace": 1
+  },
+  "lastochka/lens.cupboard": {
+   "file": "audio/lastochka/lens.cupboard.mp3",
+   "ms": 1029,
+   "speaker": "zoya",
+   "pace": 1
+  },
+  "lastochka/lens.door": {
+   "file": "audio/lastochka/lens.door.mp3",
+   "ms": 598,
+   "speaker": "zoya",
+   "pace": 1
+  },
+  "lastochka/lens.earth": {
+   "file": "audio/lastochka/lens.earth.mp3",
+   "ms": 848,
+   "speaker": "zoya",
+   "pace": 1
+  },
+  "lastochka/lens.floor": {
+   "file": "audio/lastochka/lens.floor.mp3",
+   "ms": 530,
+   "speaker": "zoya",
+   "pace": 1
+  },
+  "lastochka/lens.lamp": {
+   "file": "audio/lastochka/lens.lamp.mp3",
+   "ms": 795,
+   "speaker": "zoya",
+   "pace": 1
+  },
+  "lastochka/lens.moon": {
+   "file": "audio/lastochka/lens.moon.mp3",
+   "ms": 772,
+   "speaker": "zoya",
+   "pace": 1
+  },
+  "lastochka/lens.picture": {
+   "file": "audio/lastochka/lens.picture.mp3",
+   "ms": 977,
+   "speaker": "zoya",
+   "pace": 1
+  },
+  "lastochka/lens.plant": {
+   "file": "audio/lastochka/lens.plant.mp3",
+   "ms": 1124,
+   "speaker": "zoya",
+   "pace": 1
+  },
+  "lastochka/lens.plate": {
+   "file": "audio/lastochka/lens.plate.mp3",
+   "ms": 913,
+   "speaker": "zoya",
+   "pace": 1
+  },
+  "lastochka/lens.pocket": {
+   "file": "audio/lastochka/lens.pocket.mp3",
+   "ms": 834,
+   "speaker": "zoya",
+   "pace": 1
+  },
+  "lastochka/lens.porthole": {
+   "file": "audio/lastochka/lens.porthole.mp3",
+   "ms": 1071,
+   "speaker": "zoya",
+   "pace": 1
+  },
+  "lastochka/lens.radio": {
+   "file": "audio/lastochka/lens.radio.mp3",
+   "ms": 894,
+   "speaker": "zoya",
+   "pace": 1
+  },
+  "lastochka/lens.screen": {
+   "file": "audio/lastochka/lens.screen.mp3",
+   "ms": 1183,
+   "speaker": "zoya",
+   "pace": 1
+  },
+  "lastochka/lens.seat": {
+   "file": "audio/lastochka/lens.seat.mp3",
+   "ms": 834,
+   "speaker": "zoya",
+   "pace": 1
+  },
+  "lastochka/lens.shelf": {
+   "file": "audio/lastochka/lens.shelf.mp3",
+   "ms": 698,
+   "speaker": "zoya",
+   "pace": 1
+  },
+  "lastochka/lens.swallow": {
+   "file": "audio/lastochka/lens.swallow.mp3",
+   "ms": 1029,
+   "speaker": "zoya",
+   "pace": 1
+  },
+  "lastochka/lens.table": {
+   "file": "audio/lastochka/lens.table.mp3",
+   "ms": 705,
+   "speaker": "zoya",
+   "pace": 1
+  },
+  "lastochka/lens.wall": {
+   "file": "audio/lastochka/lens.wall.mp3",
+   "ms": 854,
+   "speaker": "zoya",
+   "pace": 1
+  },
+  "lastochka/lens.window": {
+   "file": "audio/lastochka/lens.window.mp3",
+   "ms": 787,
+   "speaker": "zoya",
+   "pace": 1
+  },
+  "lastochka/lens.wires": {
+   "file": "audio/lastochka/lens.wires.mp3",
+   "ms": 861,
+   "speaker": "zoya",
+   "pace": 1
+  },
+  "lastochka/signal.s1": {
+   "file": "audio/lastochka/signal.s1.mp3",
+   "ms": 1510,
+   "speaker": "signal",
+   "pace": 1,
+   "sentences": [
+    {
+     "index": 0,
+     "fromMs": 0,
+     "toMs": 1510
+    }
+   ],
+   "words": [
+    {
+     "ru": "Ла́сточка",
+     "fromMs": 0,
+     "toMs": 906
+    },
+    {
+     "ru": "приём",
+     "fromMs": 906,
+     "toMs": 1510
+    }
+   ]
+  },
+  "lastochka/signal.s2": {
+   "file": "audio/lastochka/signal.s2.mp3",
+   "ms": 1212,
+   "speaker": "signal",
+   "pace": 1,
+   "sentences": [
+    {
+     "index": 1,
+     "fromMs": 0,
+     "toMs": 1212
+    }
+   ],
+   "words": [
+    {
+     "ru": "Я",
+     "fromMs": 0,
+     "toMs": 404
+    },
+    {
+     "ru": "Зо́я",
+     "fromMs": 404,
+     "toMs": 1212
+    }
+   ]
+  },
+  "lastochka/signal.s3": {
+   "file": "audio/lastochka/signal.s3.mp3",
+   "ms": 1556,
+   "speaker": "signal",
+   "pace": 1,
+   "sentences": [
+    {
+     "index": 2,
+     "fromMs": 0,
+     "toMs": 1556
+    }
+   ],
+   "words": [
+    {
+     "ru": "Мне",
+     "fromMs": 0,
+     "toMs": 389
+    },
+    {
+     "ru": "де́вять",
+     "fromMs": 389,
+     "toMs": 1167
+    },
+    {
+     "ru": "лет",
+     "fromMs": 1167,
+     "toMs": 1556
+    }
+   ]
+  },
+  "lastochka/signal.s4": {
+   "file": "audio/lastochka/signal.s4.mp3",
+   "ms": 1670,
+   "speaker": "signal",
+   "pace": 1,
+   "sentences": [
+    {
+     "index": 3,
+     "fromMs": 0,
+     "toMs": 1670
+    }
+   ],
+   "words": [
+    {
+     "ru": "Я",
+     "fromMs": 0,
+     "toMs": 334
+    },
+    {
+     "ru": "ви́жу",
+     "fromMs": 334,
+     "toMs": 1002
+    },
+    {
+     "ru": "Луну́",
+     "fromMs": 1002,
+     "toMs": 1670
+    }
+   ]
+  },
+  "lastochka/signal.s5": {
+   "file": "audio/lastochka/signal.s5.mp3",
+   "ms": 1665,
+   "speaker": "signal",
+   "pace": 1,
+   "sentences": [
+    {
+     "index": 4,
+     "fromMs": 0,
+     "toMs": 1665
+    }
+   ],
+   "words": [
+    {
+     "ru": "Она́",
+     "fromMs": 0,
+     "toMs": 666
+    },
+    {
+     "ru": "больша́я",
+     "fromMs": 666,
+     "toMs": 1665
+    }
+   ]
+  },
+  "lastochka/signal.s6": {
+   "file": "audio/lastochka/signal.s6.mp3",
+   "ms": 1391,
+   "speaker": "signal",
+   "pace": 1,
+   "sentences": [
+    {
+     "index": 5,
+     "fromMs": 0,
+     "toMs": 1391
+    }
+   ],
+   "words": [
+    {
+     "ru": "Ты",
+     "fromMs": 0,
+     "toMs": 278
+    },
+    {
+     "ru": "ви́дишь",
+     "fromMs": 278,
+     "toMs": 835
+    },
+    {
+     "ru": "Зе́млю",
+     "fromMs": 835,
+     "toMs": 1391
+    }
+   ]
+  },
+  "lastochka/signal.s7": {
+   "file": "audio/lastochka/signal.s7.mp3",
+   "ms": 1347,
+   "speaker": "signal",
+   "pace": 1,
+   "sentences": [
+    {
+     "index": 6,
+     "fromMs": 0,
+     "toMs": 1347
+    }
+   ],
+   "words": [
+    {
+     "ru": "Ты",
+     "fromMs": 0,
+     "toMs": 269
+    },
+    {
+     "ru": "меня́",
+     "fromMs": 269,
+     "toMs": 808
+    },
+    {
+     "ru": "слы́шишь",
+     "fromMs": 808,
+     "toMs": 1347
+    }
+   ]
+  },
+  "lastochka/signal.s8": {
+   "file": "audio/lastochka/signal.s8.mp3",
+   "ms": 815,
+   "speaker": "signal",
+   "pace": 1,
+   "sentences": [
+    {
+     "index": 7,
+     "fromMs": 0,
+     "toMs": 815
+    }
+   ],
+   "words": [
+    {
+     "ru": "Где",
+     "fromMs": 0,
+     "toMs": 407
+    },
+    {
+     "ru": "ты",
+     "fromMs": 407,
+     "toMs": 815
+    }
+   ]
+  },
+  "lastochka/signal.s9": {
+   "file": "audio/lastochka/signal.s9.mp3",
+   "ms": 1175,
+   "speaker": "signal",
+   "pace": 1,
+   "sentences": [
+    {
+     "index": 8,
+     "fromMs": 0,
+     "toMs": 1175
+    }
+   ],
+   "words": [
+    {
+     "ru": "Включи́",
+     "fromMs": 0,
+     "toMs": 783
+    },
+    {
+     "ru": "свет",
+     "fromMs": 783,
+     "toMs": 1175
+    }
+   ]
+  }
+ }
+}

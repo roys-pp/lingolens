@@ -1,0 +1,155 @@
+<!doctype html>
+<html lang="en" data-default-level="city">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="color-scheme" content="dark" />
+    <meta name="theme-color" content="#0d1018" />
+    <meta name="description" content="LingoLens: learn a language by living in its city, on Meta Quest 3 and 3S, with your hands. The first world is Russian, in Saint Petersburg: wake a frozen courtyard with Russian words, one spell at a time." />
+    <link rel="icon" href="data:," />
+    <title>LingoLens</title>
+    <style>
+      /* The loading screen is plain HTML so it shows before the game's script has loaded.
+         The start page under it (src/engine/ui/landing.css) uses the same blue-black, so the fade reveals it without a jump. */
+      @font-face { font-family: 'Lastochka Loading Hand'; src: url('fonts/lastochka-hand.woff2') format('woff2'); font-display: swap; }
+      #loading { position: fixed; inset: 0; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 26px;
+        background: radial-gradient(ellipse at 50% 40%, #1c2233 0%, #0d1018 70%); z-index: 2147483002; transition: opacity 0.6s ease; }
+      #loading .loading__title { font: 600 clamp(48px, 9vw, 96px)/1 'Lastochka Loading Hand', 'Comic Sans MS', cursive; color: #c8553d; letter-spacing: 0.02em; }
+      #loading .loading__track { width: min(320px, 70vw); height: 12px; border-radius: 8px; border: 2px solid rgba(214, 170, 92, 0.7); padding: 2px; box-sizing: border-box; }
+      #loading .loading__bar { width: 5%; height: 100%; border-radius: 6px; background: repeating-linear-gradient(115deg, #e8a33d 0 7px, #d8902f 7px 11px); transition: width 0.35s ease; }
+      #loading .loading__note { font: 500 17px/1.3 'Noto Sans', Roboto, system-ui, -apple-system, sans-serif; color: rgba(214, 196, 160, 0.85); text-align: center; padding: 0 16px; }
+    </style>
+    <script type="module" crossorigin src="./assets/index-DVNOcQyO.js"></script>
+    <link rel="stylesheet" crossorigin href="./assets/index-KXGFN3C6.css">
+  </head>
+  <body>
+    <div id="loading" role="progressbar" aria-label="Loading Lastochka" aria-valuenow="5">
+      <div class="loading__title" lang="ru">Ла́сточка</div>
+      <div class="loading__track"><div class="loading__bar"></div></div>
+      <div class="loading__note">Warming up the radio</div>
+    </div>
+    <!-- Which game opens. A link that names a level keeps it (?level=city, ?level=lastochka). With none, the
+         build's default in <html data-default-level> (empty here; tools/pages_deploy.sh sets "city" for the
+         public courtyard build) is written into the address before the game's script reads it (src/index.ts,
+         game/city/world/mode.ts). On the courtyard, the loading screen shows its own name from the first frame;
+         boot.ts reskins the rest of the page once its code has loaded. -->
+    <script>
+      (function () {
+        var params = new URLSearchParams(location.search);
+        var fallback = document.documentElement.getAttribute('data-default-level');
+        if (!params.has('level') && (fallback === 'city' || fallback === 'lastochka')) {
+          params.set('level', fallback);
+          history.replaceState(history.state, '', location.pathname + '?' + params.toString() + location.hash);
+        }
+        if ((params.get('level') || '').trim().toLowerCase() !== 'city') return;
+        document.title = 'LingoLens';
+        var loading = document.getElementById('loading');
+        if (!loading) return;
+        loading.setAttribute('aria-label', 'Loading LingoLens');
+        var title = loading.querySelector('.loading__title');
+        if (title) title.textContent = 'LingoLens';
+        var note = loading.querySelector('.loading__note');
+        if (note) note.textContent = 'Opening Saint Petersburg';
+      })();
+    </script>
+    <div id="scene-container"></div>
+
+    <!-- The start page. Copy is for a judge reading once in the Quest Browser: short, plain, no dashes.
+         Icons are drawn here (no icon font or image files). "Sit down first" matters: the cabin seats
+         itself on the head where the session starts (game/lastochka/run.ts). -->
+    <main id="landing" class="landing" aria-labelledby="landing-title">
+      <div class="landing__inner">
+        <h1 id="landing-title" class="landing__title">
+          <span class="landing__crayon" lang="ru">Ла́сточка</span>
+          <span class="landing__name">Lastochka <span class="landing__by">by LingoLens</span></span>
+        </h1>
+        <p class="landing__lede">The only voice on your radio speaks Russian. Every word you learn clears the static on a message from beyond the Moon.</p>
+
+        <ul class="landing__facts" aria-label="Before you start">
+          <li class="fact">
+            <svg class="fact__icon" viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M5.5 11V7.5a3 3 0 0 1 3-3h7a3 3 0 0 1 3 3V11" />
+              <path d="M3 13.5a2 2 0 0 1 4 0V15h10v-1.5a2 2 0 0 1 4 0V18a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1z" />
+              <path d="M5.5 19v1.5M18.5 19v1.5" />
+            </svg>
+            <b>Seated</b><span>sit down first</span>
+          </li>
+          <li class="fact">
+            <svg class="fact__icon" viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M8.5 12.5V5a1.5 1.5 0 0 1 3 0v6.5" />
+              <path d="M11.5 11V3.5a1.5 1.5 0 0 1 3 0V11" />
+              <path d="M14.5 11.5V5.5a1.5 1.5 0 0 1 3 0v7" />
+              <path d="M17.5 9a1.5 1.5 0 0 1 3 0v4.5a7.5 7.5 0 0 1-7.5 7.5h-1c-2.2 0-3.6-.7-5-2.1l-3.3-3.3a1.6 1.6 0 0 1 2.3-2.3l2.5 2.4V12.5" />
+            </svg>
+            <b>Hands only</b><span>controllers down</span>
+          </li>
+          <li class="fact">
+            <svg class="fact__icon" viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M3.5 9.5h3l4.5-4v13l-4.5-4h-3z" />
+              <path d="M15 9a4.2 4.2 0 0 1 0 6" />
+              <path d="M18 6.2a8.2 8.2 0 0 1 0 11.6" />
+            </svg>
+            <b>Sound on</b><span>with subtitles</span>
+          </li>
+          <li class="fact" data-flight="chapter">
+            <svg class="fact__icon" viewBox="0 0 24 24" aria-hidden="true">
+              <circle cx="12" cy="12" r="8.5" />
+              <path d="M12 7.5V12l3 2" />
+            </svg>
+            <b>About 8 min</b><span>Chapter 1</span>
+          </li>
+          <li class="fact" data-flight="daily">
+            <svg class="fact__icon" viewBox="0 0 24 24" aria-hidden="true">
+              <circle cx="12" cy="13.5" r="7.5" />
+              <path d="M12 9.5v4l2.5 1.5M9.5 2.5h5M12 2.5V6" />
+            </svg>
+            <b>About 1 min</b><span>daily flight</span>
+          </li>
+        </ul>
+
+        <div class="landing__actions">
+          <!-- Shown once the brass switch has been earned (game/lastochka/run.ts); it then leads, and Start becomes the replay. -->
+          <a id="daily-link" class="landing__daily" href="?daily=1" hidden>
+            <b>Daily flight</b><span>About a minute. Flip the switch on your wall.</span>
+          </a>
+          <button id="start" class="landing__start" type="button" disabled>
+            <span class="start__first">Start</span><span class="start__again">Chapter 1 again</span>
+          </button>
+          <!-- Also once the switch is earned (run.ts): a later day's flight in one sitting, clearly a preview (daily-preview.ts saves nothing). -->
+          <a id="preview-link" class="landing__preview" href="?daily=1&amp;preview=6" hidden>
+            <b>Preview day 6</b><span>The full wall and a later part of her story. Nothing is saved.</span>
+          </a>
+          <a id="pc-link" class="landing__computer" href="?emulate=1" hidden>No headset? Play on this computer</a>
+          <!-- A failed load (index.ts): one way forward instead of a dead Start. -->
+          <button id="retry" class="landing__retry" type="button" hidden>Try again</button>
+        </div>
+        <p id="status" class="landing__status" role="status" aria-live="polite">Loading.</p>
+        <p id="preview-note" class="landing__hint landing__note" hidden></p>
+        <!-- The privacy sentence shows only in a build that sends no play log (index.ts: telemetryEndpoint() is null). -->
+        <p class="landing__hint" data-flight="chapter">If the headset asks, allow hands and room access. Your real walls are part of the story.<span data-privacy hidden> Your room stays on your headset. Nothing is uploaded.</span></p>
+        <p class="landing__hint" data-flight="daily">Your brass switch comes back to your wall. Flip it to take off.<span data-privacy hidden> Your room stays on your headset. Nothing is uploaded.</span></p>
+
+        <fieldset class="landing__options">
+          <legend>Options</legend>
+          <label class="toggle">
+            <input id="opt-subtitles" type="checkbox" role="switch" />
+            <span>English subtitles always</span>
+          </label>
+          <label class="toggle">
+            <input id="opt-large-captions" type="checkbox" role="switch" />
+            <span>Large captions</span>
+          </label>
+          <label class="toggle">
+            <input id="opt-lens" type="checkbox" role="switch" checked />
+            <span>Word labels when you look around</span>
+          </label>
+          <label class="toggle">
+            <input id="opt-pronunciation" type="checkbox" role="switch" />
+            <span>Show pronunciation</span>
+          </label>
+        </fieldset>
+      </div>
+    </main>
+
+  </body>
+</html>
