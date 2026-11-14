@@ -29,3 +29,11 @@ Measured in headless Chrome (the ink of a word with the mark minus the ink witho
 ## The courtyard's faces (Level 1, `?level=city`)
 
 `src/game/city/world/render/type.ts` adds the four PT files with FontFace as "Courtyard Serif" and "Courtyard Sans" (never the reserved names) when the courtyard is built, and the cards draw no text until they have loaded or been given up on (6 s), then repaint if they arrive late. Fallbacks: Noto Serif or Noto Sans, which Quest Browser has. Size: 1.6 MB for the four files (uncompressed TTF; a host that gzips fonts sends about half).
+
+## The LingoLens page (`src/shell`, L1)
+
+| File | Source | Changes | Licence |
+|---|---|---|---|
+| `Jost-wght.ttf` | Jost, variable weight (google/fonts `ofl/jost`, downloaded 2026-11-13 by the poster workflow: `lingolens/12-lingolens/posters/fonts/Jost[wght].ttf`) | None: the file as published | `OFL-Jost.txt` |
+
+The LINGOLENS wordmark on the loading screen and on the 2D page (index.html, `src/shell/title-page.css`), loaded with @font-face as "LL Jost": the face the posters use for their English lines. Jost reserves no font name.

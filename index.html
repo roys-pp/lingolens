@@ -1,11 +1,11 @@
 <!doctype html>
-<html lang="en" data-default-level="city">
+<html lang="en" data-default-level="lingolens">
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="color-scheme" content="dark" />
     <meta name="theme-color" content="#0d1018" />
-    <meta name="description" content="LingoLens: learn a language by living in its city, on Meta Quest 3 and 3S, with your hands. The first world is Russian, in Saint Petersburg: wake a frozen courtyard with Russian words, one spell at a time." />
+    <meta name="description" content="LingoLens: learn the language, live the adventure. A seated, hands-first adventure for Meta Quest 3 and 3S. Ten language worlds; Russian is open now." />
     <link rel="icon" href="data:," />
     <title>LingoLens</title>
     <style>
@@ -18,38 +18,56 @@
       #loading .loading__track { width: min(320px, 70vw); height: 12px; border-radius: 8px; border: 2px solid rgba(214, 170, 92, 0.7); padding: 2px; box-sizing: border-box; }
       #loading .loading__bar { width: 5%; height: 100%; border-radius: 6px; background: repeating-linear-gradient(115deg, #e8a33d 0 7px, #d8902f 7px 11px); transition: width 0.35s ease; }
       #loading .loading__note { font: 500 17px/1.3 'Noto Sans', Roboto, system-ui, -apple-system, sans-serif; color: rgba(214, 196, 160, 0.85); text-align: center; padding: 0 16px; }
+      /* LingoLens (every link but Lastochka's own): the wordmark in Jost, the posters' face, with its gold lens ring (src/shell/title-page.css). */
+      @font-face { font-family: 'LL Jost'; src: url('fonts/Jost-wght.ttf') format('truetype'); font-weight: 100 900; font-display: swap; }
+      #loading .loading__mark { display: none; align-items: center; gap: 0.32em; font: 600 clamp(32px, 8vw, 72px)/1 'LL Jost', 'Noto Sans', Roboto, system-ui, sans-serif; letter-spacing: 0.24em; color: #f3e9d4; }
+      #loading .loading__mark svg { width: 0.95em; height: 0.95em; fill: none; stroke: #ffd27a; stroke-width: 2.2; }
+      #loading .loading__mark span { margin-right: -0.24em; }
+      html[data-page="lingolens"] #loading .loading__mark { display: inline-flex; }
+      html[data-page="lingolens"] #loading .loading__title { display: none; }
+      html:not([data-page]) #loading .loading__title { visibility: hidden; }
     </style>
-    <script type="module" crossorigin src="./assets/index-DVNOcQyO.js"></script>
-    <link rel="stylesheet" crossorigin href="./assets/index-KXGFN3C6.css">
+    <script type="module" crossorigin src="./assets/index-CyaRQKtX.js"></script>
+    <link rel="stylesheet" crossorigin href="./assets/index-DAzbyBCl.css">
   </head>
   <body>
     <div id="loading" role="progressbar" aria-label="Loading Lastochka" aria-valuenow="5">
       <div class="loading__title" lang="ru">Ла́сточка</div>
+      <div class="loading__mark" aria-hidden="true"><svg viewBox="0 0 48 48"><circle cx="24" cy="24" r="20" /><circle cx="24" cy="24" r="13" stroke-width="1.2" opacity="0.55" /></svg><span>LINGOLENS</span></div>
       <div class="loading__track"><div class="loading__bar"></div></div>
       <div class="loading__note">Warming up the radio</div>
     </div>
-    <!-- Which game opens. A link that names a level keeps it (?level=city, ?level=lastochka). With none, the
-         build's default in <html data-default-level> (empty here; tools/pages_deploy.sh sets "city" for the
-         public courtyard build) is written into the address before the game's script reads it (src/index.ts,
-         game/city/world/mode.ts). On the courtyard, the loading screen shows its own name from the first frame;
-         boot.ts reskins the rest of the page once its code has loaded. -->
+    <!-- Which page opens (src/shell/routes.ts pageOf says the same; src/shell/boot-wiring.test.ts checks
+         that they agree). A link that names a level keeps it (?level=lastochka, ?level=city, ?level=lingolens).
+         With none, the build's default in <html data-default-level> ("lingolens"; tools/pages_deploy.sh can
+         write "city", or "" for Lastochka) is written into the address before the game's script reads it
+         (src/index.ts, game/city/world/mode.ts). Every link but Lastochka's own (?level=lastochka,
+         ?mode=lastochka) opens LingoLens: the loading screen shows the LINGOLENS wordmark from the first
+         frame, and src/shell/title-page.ts puts screen 0 in place of Lastochka's start page below. -->
     <script>
       (function () {
+        var root = document.documentElement;
         var params = new URLSearchParams(location.search);
-        var fallback = document.documentElement.getAttribute('data-default-level');
-        if (!params.has('level') && (fallback === 'city' || fallback === 'lastochka')) {
+        var fallback = root.getAttribute('data-default-level');
+        if (!params.has('level') && (fallback === 'lingolens' || fallback === 'city' || fallback === 'lastochka')) {
           params.set('level', fallback);
           history.replaceState(history.state, '', location.pathname + '?' + params.toString() + location.hash);
         }
-        if ((params.get('level') || '').trim().toLowerCase() !== 'city') return;
+        var level = (params.get('level') || '').trim().toLowerCase();
+        var mode = (params.get('mode') || '').trim().toLowerCase();
+        var lingolens = level !== 'lastochka' && mode !== 'lastochka' &&
+          (level === 'lingolens' || level === 'city' || params.has('world') || params.has('mode'));
+        root.setAttribute('data-page', lingolens ? 'lingolens' : 'lastochka');
+        if (!lingolens) {
+          document.title = 'Lastochka by LingoLens';
+          return;
+        }
         document.title = 'LingoLens';
         var loading = document.getElementById('loading');
         if (!loading) return;
         loading.setAttribute('aria-label', 'Loading LingoLens');
-        var title = loading.querySelector('.loading__title');
-        if (title) title.textContent = 'LingoLens';
         var note = loading.querySelector('.loading__note');
-        if (note) note.textContent = 'Opening Saint Petersburg';
+        if (note) note.textContent = 'Loading the city';
       })();
     </script>
     <div id="scene-container"></div>

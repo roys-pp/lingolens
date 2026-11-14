@@ -1,1 +1,1 @@
-LingoLens public build 20261113T220944Z from source 156891d with uncommitted changes (a bare link opens: city)
+LingoLens public build 20261114T234043Z from source 156891d with uncommitted changes (a bare link opens: lingolens)
