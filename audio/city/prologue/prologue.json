@@ -5,28 +5,29 @@
  "clips": {
   "p1": {
    "file": "audio/city/prologue/p1.mp3",
-   "ms": 6479,
+   "ms": 5394,
    "text": "You are an apprentice word wizard. In your world, a word said with meaning is a spell."
   },
   "p2": {
    "file": "audio/city/prologue/p2.mp3",
-   "ms": 8426,
-   "text": "Tonight you stand in an old courtyard in Saint Petersburg, Russia. The lamps are dark. The windows are cold."
+   "ms": 3830,
+   "text": "Tonight you stand in an old courtyard in Saint Petersburg, Russia. The lamps are dark."
   },
   "p3": {
    "file": "audio/city/prologue/p3.mp3",
-   "ms": 7520,
+   "ms": 6207,
    "text": "A curse called the Silence has stolen this courtyard's words. Where the words went, everything froze."
   },
   "p4": {
    "file": "audio/city/prologue/p4.mp3",
-   "ms": 7760,
+   "ms": 6473,
    "text": "Learn Russian words from the people here. Cast them as spells to wake the courtyard, and open the gate to the city."
   },
   "p5": {
    "file": "audio/city/prologue/p5.mp3",
-   "ms": 6716,
-   "text": "You are not alone. Meet Eeskra, a spark of living language. She will be your guide."
+   "ms": 4051,
+   "text": "Meet Eeskra, a spark of living language. She will be your guide."
   }
- }
+ },
+ "note": "2026-11-15 lane J: trimmed at sentence pauses (p2 keeps sentences 1-2, p5 starts at Meet Iskra) and sped 1.15x with ffmpeg atempo (pitch kept), offline, no paid API. Originals: .tmp/lingolens/ll/J/orig_prologue. Re-running render_prologue_voices.py --force restores the long takes."
 }

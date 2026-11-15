@@ -2,7 +2,7 @@
  "source": "ElevenLabs, Starter plan (commercial use granted). Voices: eleven_v4, native Russian Voice Library voices (voiceId per clip; the Lens words in Искра's voice, Zlata Belova). Sounds: sound generation, eleven_text_to_sound_v3 for one-shots and eleven_text_to_sound_v2 with loop for loops.",
  "credit": "Voices and sounds: synthetic (ElevenLabs)",
  "shippable": true,
- "generated": "2026-11-14T21:49:30",
+ "generated": "2026-11-15T11:40:52",
  "tool": "lingolens/10-build/tools/render_city_ambient.py",
  "envelopeHz": 30,
  "envelopeScale": "dB-linear: 0 at -50 dBFS or below, 1 at the clip's loudest 1/30 s frame",
@@ -21,7 +21,6 @@
    "lufs": -20.0
   },
   "overrides": {
-   "bed.grey": -36.0,
    "wake.breath": -26.0,
    "cat.trill": -26.0,
    "leaves.rustle": -25.0,
@@ -6691,7 +6690,7 @@
    "model": "eleven_text_to_sound_v2",
    "level": {
     "metric": "integrated",
-    "lufs": -36.0
+    "lufs": -32.0
    },
    "loopStartMs": 100.0,
    "loopEndMs": 16090.0

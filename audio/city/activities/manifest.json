@@ -1,0 +1,1257 @@
+{
+ "source": "ElevenLabs eleven_v4, Искра's voice (the city's own pipeline, tools/render_city_activities.py). Paid plan: commercial use granted.",
+ "credit": "Voices: synthetic (ElevenLabs)",
+ "shippable": true,
+ "tool": "lingolens/10-build/tools/render_city_activities.py",
+ "note": "The game's ActivitySound (game/city/activities/sound.ts) loads this list.",
+ "clips": {
+  "city/activities/find.balkon": {
+   "file": "audio/city/activities/find.balkon.mp3",
+   "ms": 1372,
+   "text": "Найди́ балко́н!",
+   "en": "Find it!",
+   "kind": "line",
+   "pack": "activities",
+   "speaker": "iskra",
+   "voiceId": "TeHM1srC510U976rvUis",
+   "lufs": -19.8,
+   "truePeak": -4.5,
+   "stt": "Найди балкон",
+   "sttMatch": 1.0,
+   "words": [
+    {
+     "ru": "Найди́",
+     "fromMs": 100,
+     "toMs": 520
+    },
+    {
+     "ru": "балко́н",
+     "fromMs": 620,
+     "toMs": 1200
+    }
+   ]
+  },
+  "city/activities/find.belyo": {
+   "file": "audio/city/activities/find.belyo.mp3",
+   "ms": 1269,
+   "text": "Найди́ бельё!",
+   "en": "Find it!",
+   "kind": "line",
+   "pack": "activities",
+   "speaker": "iskra",
+   "voiceId": "TeHM1srC510U976rvUis",
+   "lufs": -19.8,
+   "truePeak": -8.4,
+   "stt": "Найди белье",
+   "sttMatch": 1.0,
+   "words": [
+    {
+     "ru": "Найди́",
+     "fromMs": 100,
+     "toMs": 500
+    },
+    {
+     "ru": "бельё",
+     "fromMs": 580,
+     "toMs": 1080
+    }
+   ]
+  },
+  "city/activities/find.bereza": {
+   "file": "audio/city/activities/find.bereza.mp3",
+   "ms": 1529,
+   "text": "Найди́ берёзу!",
+   "en": "Find it!",
+   "kind": "line",
+   "pack": "activities",
+   "speaker": "iskra",
+   "voiceId": "TeHM1srC510U976rvUis",
+   "lufs": -19.6,
+   "truePeak": -6.7,
+   "stt": "Найди березу",
+   "sttMatch": 1.0,
+   "words": [
+    {
+     "ru": "Найди́",
+     "fromMs": 120,
+     "toMs": 580
+    },
+    {
+     "ru": "берёзу",
+     "fromMs": 720,
+     "toMs": 1340
+    }
+   ]
+  },
+  "city/activities/find.dom": {
+   "file": "audio/city/activities/find.dom.mp3",
+   "ms": 1186,
+   "text": "Найди́ дом!",
+   "en": "Find it!",
+   "kind": "line",
+   "pack": "activities",
+   "speaker": "iskra",
+   "voiceId": "TeHM1srC510U976rvUis",
+   "lufs": -19.6,
+   "truePeak": -7.8,
+   "stt": "Найди дом",
+   "sttMatch": 1.0,
+   "words": [
+    {
+     "ru": "Найди́",
+     "fromMs": 120,
+     "toMs": 540
+    },
+    {
+     "ru": "дом",
+     "fromMs": 680,
+     "toMs": 1040
+    }
+   ]
+  },
+  "city/activities/find.fonar": {
+   "file": "audio/city/activities/find.fonar.mp3",
+   "ms": 1260,
+   "text": "Найди́ фона́рь!",
+   "en": "Find it!",
+   "kind": "line",
+   "pack": "activities",
+   "speaker": "iskra",
+   "voiceId": "TeHM1srC510U976rvUis",
+   "lufs": -19.5,
+   "truePeak": -6.7,
+   "stt": "Найди фонарь",
+   "sttMatch": 1.0,
+   "words": [
+    {
+     "ru": "Найди́",
+     "fromMs": 100,
+     "toMs": 500
+    },
+    {
+     "ru": "фона́рь",
+     "fromMs": 620,
+     "toMs": 1140
+    }
+   ]
+  },
+  "city/activities/find.gribok": {
+   "file": "audio/city/activities/find.gribok.mp3",
+   "ms": 1400,
+   "text": "Найди́ грибо́к!",
+   "en": "Find it!",
+   "kind": "line",
+   "pack": "activities",
+   "speaker": "iskra",
+   "voiceId": "TeHM1srC510U976rvUis",
+   "lufs": -19.9,
+   "truePeak": -6.3,
+   "stt": "Найди грибок",
+   "sttMatch": 1.0,
+   "words": [
+    {
+     "ru": "Найди́",
+     "fromMs": 120,
+     "toMs": 520
+    },
+    {
+     "ru": "грибо́к",
+     "fromMs": 640,
+     "toMs": 1200
+    }
+   ]
+  },
+  "city/activities/find.kacheli": {
+   "file": "audio/city/activities/find.kacheli.mp3",
+   "ms": 1450,
+   "text": "Найди́ ка́чели!",
+   "en": "Find it!",
+   "kind": "line",
+   "pack": "activities",
+   "speaker": "iskra",
+   "voiceId": "TeHM1srC510U976rvUis",
+   "lufs": -19.9,
+   "truePeak": -6.0,
+   "stt": "Найди качели",
+   "sttMatch": 1.0,
+   "words": [
+    {
+     "ru": "Найди́",
+     "fromMs": 120,
+     "toMs": 500
+    },
+    {
+     "ru": "ка́чели",
+     "fromMs": 600,
+     "toMs": 1300
+    }
+   ]
+  },
+  "city/activities/find.koshka": {
+   "file": "audio/city/activities/find.koshka.mp3",
+   "ms": 1364,
+   "text": "Найди́ ко́шку!",
+   "en": "Find it!",
+   "kind": "line",
+   "pack": "activities",
+   "speaker": "iskra",
+   "voiceId": "TeHM1srC510U976rvUis",
+   "lufs": -20.0,
+   "truePeak": -5.6,
+   "stt": "Найди кошку",
+   "sttMatch": 1.0,
+   "words": [
+    {
+     "ru": "Найди́",
+     "fromMs": 100,
+     "toMs": 500
+    },
+    {
+     "ru": "ко́шку",
+     "fromMs": 640,
+     "toMs": 1180
+    }
+   ]
+  },
+  "city/activities/find.lebed": {
+   "file": "audio/city/activities/find.lebed.mp3",
+   "ms": 1460,
+   "text": "Найди́ ле́бедя!",
+   "en": "Find it!",
+   "kind": "line",
+   "pack": "activities",
+   "speaker": "iskra",
+   "voiceId": "TeHM1srC510U976rvUis",
+   "lufs": -19.9,
+   "truePeak": -8.3,
+   "stt": "Найди лебедя",
+   "sttMatch": 1.0,
+   "words": [
+    {
+     "ru": "Найди́",
+     "fromMs": 100,
+     "toMs": 560
+    },
+    {
+     "ru": "ле́бедя",
+     "fromMs": 700,
+     "toMs": 1280
+    }
+   ]
+  },
+  "city/activities/find.lipa": {
+   "file": "audio/city/activities/find.lipa.mp3",
+   "ms": 1310,
+   "text": "Найди́ ли́пу!",
+   "en": "Find it!",
+   "kind": "line",
+   "pack": "activities",
+   "speaker": "iskra",
+   "voiceId": "TeHM1srC510U976rvUis",
+   "lufs": -20.0,
+   "truePeak": -9.7,
+   "stt": "Найди липу",
+   "sttMatch": 1.0,
+   "words": [
+    {
+     "ru": "Найди́",
+     "fromMs": 100,
+     "toMs": 520
+    },
+    {
+     "ru": "ли́пу",
+     "fromMs": 640,
+     "toMs": 1120
+    }
+   ]
+  },
+  "city/activities/find.mashina": {
+   "file": "audio/city/activities/find.mashina.mp3",
+   "ms": 1410,
+   "text": "Найди́ маши́ну!",
+   "en": "Find it!",
+   "kind": "line",
+   "pack": "activities",
+   "speaker": "iskra",
+   "voiceId": "TeHM1srC510U976rvUis",
+   "lufs": -20.0,
+   "truePeak": -6.3,
+   "stt": "Найди машину",
+   "sttMatch": 1.0,
+   "words": [
+    {
+     "ru": "Найди́",
+     "fromMs": 100,
+     "toMs": 520
+    },
+    {
+     "ru": "маши́ну",
+     "fromMs": 600,
+     "toMs": 1240
+    }
+   ]
+  },
+  "city/activities/find.okno": {
+   "file": "audio/city/activities/find.okno.mp3",
+   "ms": 1370,
+   "text": "Найди́ окно́!",
+   "en": "Find it!",
+   "kind": "line",
+   "pack": "activities",
+   "speaker": "iskra",
+   "voiceId": "TeHM1srC510U976rvUis",
+   "lufs": -20.0,
+   "truePeak": -8.0,
+   "stt": "Найди окно",
+   "sttMatch": 1.0,
+   "words": [
+    {
+     "ru": "Найди́",
+     "fromMs": 100,
+     "toMs": 540
+    },
+    {
+     "ru": "окно́",
+     "fromMs": 720,
+     "toMs": 1200
+    }
+   ]
+  },
+  "city/activities/find.pesochnitsa": {
+   "file": "audio/city/activities/find.pesochnitsa.mp3",
+   "ms": 1540,
+   "text": "Найди́ песо́чницу!",
+   "en": "Find it!",
+   "kind": "line",
+   "pack": "activities",
+   "speaker": "iskra",
+   "voiceId": "TeHM1srC510U976rvUis",
+   "lufs": -19.8,
+   "truePeak": -6.2,
+   "stt": "Найди песочницу",
+   "sttMatch": 1.0,
+   "words": [
+    {
+     "ru": "Найди́",
+     "fromMs": 100,
+     "toMs": 460
+    },
+    {
+     "ru": "песо́чницу",
+     "fromMs": 540,
+     "toMs": 1400
+    }
+   ]
+  },
+  "city/activities/find.siren": {
+   "file": "audio/city/activities/find.siren.mp3",
+   "ms": 1310,
+   "text": "Найди́ сире́нь!",
+   "en": "Find it!",
+   "kind": "line",
+   "pack": "activities",
+   "speaker": "iskra",
+   "voiceId": "TeHM1srC510U976rvUis",
+   "lufs": -20.1,
+   "truePeak": -6.0,
+   "stt": "Найди сирень",
+   "sttMatch": 1.0,
+   "words": [
+    {
+     "ru": "Найди́",
+     "fromMs": 100,
+     "toMs": 560
+    },
+    {
+     "ru": "сире́нь",
+     "fromMs": 660,
+     "toMs": 1160
+    }
+   ]
+  },
+  "city/activities/find.skameyka": {
+   "file": "audio/city/activities/find.skameyka.mp3",
+   "ms": 1450,
+   "text": "Найди́ скаме́йку!",
+   "en": "Find it!",
+   "kind": "line",
+   "pack": "activities",
+   "speaker": "iskra",
+   "voiceId": "TeHM1srC510U976rvUis",
+   "lufs": -20.0,
+   "truePeak": -8.4,
+   "stt": "Найди скамейку",
+   "sttMatch": 1.0,
+   "words": [
+    {
+     "ru": "Найди́",
+     "fromMs": 100,
+     "toMs": 460
+    },
+    {
+     "ru": "скаме́йку",
+     "fromMs": 540,
+     "toMs": 1260
+    }
+   ]
+  },
+  "city/activities/find.tsvety": {
+   "file": "audio/city/activities/find.tsvety.mp3",
+   "ms": 1410,
+   "text": "Найди́ цветы́!",
+   "en": "Find it!",
+   "kind": "line",
+   "pack": "activities",
+   "speaker": "iskra",
+   "voiceId": "TeHM1srC510U976rvUis",
+   "lufs": -20.2,
+   "truePeak": -6.8,
+   "stt": "Найди цветы",
+   "sttMatch": 1.0,
+   "words": [
+    {
+     "ru": "Найди́",
+     "fromMs": 100,
+     "toMs": 580
+    },
+    {
+     "ru": "цветы́",
+     "fromMs": 700,
+     "toMs": 1200
+    }
+   ]
+  },
+  "city/activities/find.urna": {
+   "file": "audio/city/activities/find.urna.mp3",
+   "ms": 1369,
+   "text": "Найди́ у́рну!",
+   "en": "Find it!",
+   "kind": "line",
+   "pack": "activities",
+   "speaker": "iskra",
+   "voiceId": "TeHM1srC510U976rvUis",
+   "lufs": -19.9,
+   "truePeak": -7.8,
+   "stt": "Найди урну",
+   "sttMatch": 1.0,
+   "words": [
+    {
+     "ru": "Найди́",
+     "fromMs": 100,
+     "toMs": 540
+    },
+    {
+     "ru": "у́рну",
+     "fromMs": 800,
+     "toMs": 1220
+    }
+   ]
+  },
+  "city/activities/find.velosiped": {
+   "file": "audio/city/activities/find.velosiped.mp3",
+   "ms": 1530,
+   "text": "Найди́ велосипе́д!",
+   "en": "Find it!",
+   "kind": "line",
+   "pack": "activities",
+   "speaker": "iskra",
+   "voiceId": "TeHM1srC510U976rvUis",
+   "lufs": -19.9,
+   "truePeak": -7.2,
+   "stt": "Найди велосипед",
+   "sttMatch": 1.0,
+   "words": [
+    {
+     "ru": "Найди́",
+     "fromMs": 100,
+     "toMs": 580
+    },
+    {
+     "ru": "велосипе́д",
+     "fromMs": 620,
+     "toMs": 1380
+    }
+   ]
+  },
+  "city/activities/line.end.lantern": {
+   "file": "audio/city/activities/line.end.lantern.mp3",
+   "ms": 1790,
+   "text": "Все фонари́ горя́т!",
+   "en": "All the lanterns are glowing!",
+   "kind": "line",
+   "pack": "activities",
+   "speaker": "iskra",
+   "voiceId": "TeHM1srC510U976rvUis",
+   "lufs": -19.5,
+   "truePeak": -7.8,
+   "stt": "Все фонари горят",
+   "sttMatch": 1.0,
+   "words": [
+    {
+     "ru": "Все",
+     "fromMs": 120,
+     "toMs": 320
+    },
+    {
+     "ru": "фонари́",
+     "fromMs": 440,
+     "toMs": 940
+    },
+    {
+     "ru": "горя́т",
+     "fromMs": 1080,
+     "toMs": 1580
+    }
+   ]
+  },
+  "city/activities/line.end.round": {
+   "file": "audio/city/activities/line.end.round.mp3",
+   "ms": 1610,
+   "text": "Ты волше́бник!",
+   "en": "You are a wizard!",
+   "kind": "line",
+   "pack": "activities",
+   "speaker": "iskra",
+   "voiceId": "TeHM1srC510U976rvUis",
+   "lufs": -19.7,
+   "truePeak": -7.9,
+   "stt": "Ты волшебник!",
+   "sttMatch": 1.0,
+   "words": [
+    {
+     "ru": "Ты",
+     "fromMs": 40,
+     "toMs": 200
+    },
+    {
+     "ru": "волше́бник",
+     "fromMs": 240,
+     "toMs": 1380
+    }
+   ]
+  },
+  "city/activities/line.hint.vot_tam": {
+   "file": "audio/city/activities/line.hint.vot_tam.mp3",
+   "ms": 940,
+   "text": "Вот там!",
+   "en": "Over there!",
+   "kind": "line",
+   "pack": "activities",
+   "speaker": "iskra",
+   "voiceId": "TeHM1srC510U976rvUis",
+   "lufs": -19.0,
+   "truePeak": -5.5,
+   "stt": "Вот там",
+   "sttMatch": 1.0,
+   "words": [
+    {
+     "ru": "Вот",
+     "fromMs": 100,
+     "toMs": 380
+    },
+    {
+     "ru": "там",
+     "fromMs": 420,
+     "toMs": 760
+    }
+   ]
+  },
+  "city/activities/line.intro.lantern": {
+   "file": "audio/city/activities/line.intro.lantern.mp3",
+   "ms": 2753,
+   "text": "Сосе́ди просну́лись! Зажжём фонари́!",
+   "en": "The neighbours are awake! Let us light the lanterns!",
+   "kind": "line",
+   "pack": "activities",
+   "speaker": "iskra",
+   "voiceId": "TeHM1srC510U976rvUis",
+   "lufs": -19.9,
+   "truePeak": -4.7,
+   "stt": "Соседи проснулись. Зажжем фонари",
+   "sttMatch": 1.0,
+   "words": [
+    {
+     "ru": "Сосе́ди",
+     "fromMs": 120,
+     "toMs": 600
+    },
+    {
+     "ru": "просну́лись",
+     "fromMs": 680,
+     "toMs": 1400
+    },
+    {
+     "ru": "Зажжём",
+     "fromMs": 1740,
+     "toMs": 2120
+    },
+    {
+     "ru": "фонари́",
+     "fromMs": 2200,
+     "toMs": 2600
+    }
+   ]
+  },
+  "city/activities/line.intro.review": {
+   "file": "audio/city/activities/line.intro.review.mp3",
+   "ms": 800,
+   "text": "Повтори́м!",
+   "en": "Let us practise!",
+   "kind": "line",
+   "pack": "activities",
+   "speaker": "iskra",
+   "voiceId": "TeHM1srC510U976rvUis",
+   "lufs": -19.4,
+   "truePeak": -5.5,
+   "stt": "Повторим",
+   "sttMatch": 1.0,
+   "words": [
+    {
+     "ru": "Повтори́м",
+     "fromMs": 20,
+     "toMs": 640
+    }
+   ]
+  },
+  "city/activities/line.intro.round": {
+   "file": "audio/city/activities/line.intro.round.mp3",
+   "ms": 1195,
+   "text": "Дава́й пои́щем!",
+   "en": "Let us look!",
+   "kind": "line",
+   "pack": "activities",
+   "speaker": "iskra",
+   "voiceId": "TeHM1srC510U976rvUis",
+   "lufs": -18.8,
+   "truePeak": -5.2,
+   "stt": "Давай поищем",
+   "sttMatch": 1.0,
+   "words": [
+    {
+     "ru": "Дава́й",
+     "fromMs": 100,
+     "toMs": 400
+    },
+    {
+     "ru": "пои́щем",
+     "fromMs": 440,
+     "toMs": 1020
+    }
+   ]
+  },
+  "city/activities/line.miss.ne_to": {
+   "file": "audio/city/activities/line.miss.ne_to.mp3",
+   "ms": 2096,
+   "text": "Не то. Попро́буй ещё!",
+   "en": "Not that one. Try again!",
+   "kind": "line",
+   "pack": "activities",
+   "speaker": "iskra",
+   "voiceId": "TeHM1srC510U976rvUis",
+   "lufs": -20.8,
+   "truePeak": -2.9,
+   "stt": "Не то. Попробуй еще",
+   "sttMatch": 1.0,
+   "words": [
+    {
+     "ru": "Не",
+     "fromMs": 140,
+     "toMs": 220
+    },
+    {
+     "ru": "то",
+     "fromMs": 340,
+     "toMs": 580
+    },
+    {
+     "ru": "Попро́буй",
+     "fromMs": 1000,
+     "toMs": 1460
+    },
+    {
+     "ru": "ещё",
+     "fromMs": 1560,
+     "toMs": 1880
+    }
+   ]
+  },
+  "city/activities/line.praise.molodets": {
+   "file": "audio/city/activities/line.praise.molodets.mp3",
+   "ms": 1130,
+   "text": "Молоде́ц!",
+   "en": "Well done!",
+   "kind": "line",
+   "pack": "activities",
+   "speaker": "iskra",
+   "voiceId": "TeHM1srC510U976rvUis",
+   "lufs": -18.6,
+   "truePeak": -3.7,
+   "stt": "Молодец!",
+   "sttMatch": 1.0,
+   "words": [
+    {
+     "ru": "Молоде́ц",
+     "fromMs": 120,
+     "toMs": 960
+    }
+   ]
+  },
+  "city/activities/line.praise.otlichno": {
+   "file": "audio/city/activities/line.praise.otlichno.mp3",
+   "ms": 1090,
+   "text": "Отли́чно!",
+   "en": "Excellent!",
+   "kind": "line",
+   "pack": "activities",
+   "speaker": "iskra",
+   "voiceId": "TeHM1srC510U976rvUis",
+   "lufs": -19.0,
+   "truePeak": -5.7,
+   "stt": "Отлично!",
+   "sttMatch": 1.0,
+   "words": [
+    {
+     "ru": "Отли́чно",
+     "fromMs": 60,
+     "toMs": 900
+    }
+   ]
+  },
+  "city/activities/line.praise.pravilno": {
+   "file": "audio/city/activities/line.praise.pravilno.mp3",
+   "ms": 830,
+   "text": "Пра́вильно!",
+   "en": "Correct!",
+   "kind": "line",
+   "pack": "activities",
+   "speaker": "iskra",
+   "voiceId": "TeHM1srC510U976rvUis",
+   "lufs": -19.7,
+   "truePeak": -4.0,
+   "stt": "Правильно",
+   "sttMatch": 1.0,
+   "words": [
+    {
+     "ru": "Пра́вильно",
+     "fromMs": 40,
+     "toMs": 680
+    }
+   ]
+  },
+  "city/activities/line.praise.verno": {
+   "file": "audio/city/activities/line.praise.verno.mp3",
+   "ms": 750,
+   "text": "Ве́рно!",
+   "en": "Right!",
+   "kind": "line",
+   "pack": "activities",
+   "speaker": "iskra",
+   "voiceId": "TeHM1srC510U976rvUis",
+   "lufs": -19.0,
+   "truePeak": -5.5,
+   "stt": "Верно",
+   "sttMatch": 1.0,
+   "words": [
+    {
+     "ru": "Ве́рно",
+     "fromMs": 140,
+     "toMs": 560
+    }
+   ]
+  },
+  "city/activities/line.rank.up": {
+   "file": "audio/city/activities/line.rank.up.mp3",
+   "ms": 1260,
+   "text": "Но́вый ра́нг!",
+   "en": "New rank!",
+   "kind": "line",
+   "pack": "activities",
+   "speaker": "iskra",
+   "voiceId": "TeHM1srC510U976rvUis",
+   "lufs": -18.8,
+   "truePeak": -6.2,
+   "stt": "Новый ранг",
+   "sttMatch": 1.0,
+   "words": [
+    {
+     "ru": "Но́вый",
+     "fromMs": 180,
+     "toMs": 520
+    },
+    {
+     "ru": "ра́нг",
+     "fromMs": 600,
+     "toMs": 1040
+    }
+   ]
+  },
+  "city/activities/where.balkon": {
+   "file": "audio/city/activities/where.balkon.mp3",
+   "ms": 1030,
+   "text": "Где балко́н?",
+   "en": "Where is it?",
+   "kind": "line",
+   "pack": "activities",
+   "speaker": "iskra",
+   "voiceId": "TeHM1srC510U976rvUis",
+   "lufs": -19.3,
+   "truePeak": -4.2,
+   "stt": "Где балкон?",
+   "sttMatch": 1.0,
+   "words": [
+    {
+     "ru": "Где",
+     "fromMs": 120,
+     "toMs": 300
+    },
+    {
+     "ru": "балко́н",
+     "fromMs": 360,
+     "toMs": 860
+    }
+   ]
+  },
+  "city/activities/where.belyo": {
+   "file": "audio/city/activities/where.belyo.mp3",
+   "ms": 1013,
+   "text": "Где бельё?",
+   "en": "Where is it?",
+   "kind": "line",
+   "pack": "activities",
+   "speaker": "iskra",
+   "voiceId": "TeHM1srC510U976rvUis",
+   "lufs": -19.5,
+   "truePeak": -7.8,
+   "stt": "Где белье?",
+   "sttMatch": 1.0,
+   "words": [
+    {
+     "ru": "Где",
+     "fromMs": 120,
+     "toMs": 340
+    },
+    {
+     "ru": "бельё",
+     "fromMs": 400,
+     "toMs": 820
+    }
+   ]
+  },
+  "city/activities/where.bereza": {
+   "file": "audio/city/activities/where.bereza.mp3",
+   "ms": 1130,
+   "text": "Где берёза?",
+   "en": "Where is it?",
+   "kind": "line",
+   "pack": "activities",
+   "speaker": "iskra",
+   "voiceId": "TeHM1srC510U976rvUis",
+   "lufs": -19.4,
+   "truePeak": -6.8,
+   "stt": "Где береза?",
+   "sttMatch": 1.0,
+   "words": [
+    {
+     "ru": "Где",
+     "fromMs": 120,
+     "toMs": 360
+    },
+    {
+     "ru": "берёза",
+     "fromMs": 420,
+     "toMs": 940
+    }
+   ]
+  },
+  "city/activities/where.dom": {
+   "file": "audio/city/activities/where.dom.mp3",
+   "ms": 869,
+   "text": "Где дом?",
+   "en": "Where is it?",
+   "kind": "line",
+   "pack": "activities",
+   "speaker": "iskra",
+   "voiceId": "TeHM1srC510U976rvUis",
+   "lufs": -19.1,
+   "truePeak": -8.1,
+   "stt": "Где дом?",
+   "sttMatch": 1.0,
+   "words": [
+    {
+     "ru": "Где",
+     "fromMs": 100,
+     "toMs": 340
+    },
+    {
+     "ru": "дом",
+     "fromMs": 440,
+     "toMs": 720
+    }
+   ]
+  },
+  "city/activities/where.fonar": {
+   "file": "audio/city/activities/where.fonar.mp3",
+   "ms": 1007,
+   "text": "Где фона́рь?",
+   "en": "Where is it?",
+   "kind": "line",
+   "pack": "activities",
+   "speaker": "iskra",
+   "voiceId": "TeHM1srC510U976rvUis",
+   "lufs": -19.4,
+   "truePeak": -8.1,
+   "stt": "Где фонарь?",
+   "sttMatch": 1.0,
+   "words": [
+    {
+     "ru": "Где",
+     "fromMs": 120,
+     "toMs": 340
+    },
+    {
+     "ru": "фона́рь",
+     "fromMs": 440,
+     "toMs": 880
+    }
+   ]
+  },
+  "city/activities/where.gribok": {
+   "file": "audio/city/activities/where.gribok.mp3",
+   "ms": 1130,
+   "text": "Где грибо́к?",
+   "en": "Where is it?",
+   "kind": "line",
+   "pack": "activities",
+   "speaker": "iskra",
+   "voiceId": "TeHM1srC510U976rvUis",
+   "lufs": -19.3,
+   "truePeak": -7.7,
+   "stt": "Где грибок?",
+   "sttMatch": 1.0,
+   "words": [
+    {
+     "ru": "Где",
+     "fromMs": 140,
+     "toMs": 360
+    },
+    {
+     "ru": "грибо́к",
+     "fromMs": 420,
+     "toMs": 940
+    }
+   ]
+  },
+  "city/activities/where.kacheli": {
+   "file": "audio/city/activities/where.kacheli.mp3",
+   "ms": 1209,
+   "text": "Где ка́чели?",
+   "en": "Where is it?",
+   "kind": "line",
+   "pack": "activities",
+   "speaker": "iskra",
+   "voiceId": "TeHM1srC510U976rvUis",
+   "lufs": -19.6,
+   "truePeak": -5.5,
+   "stt": "Где качели?",
+   "sttMatch": 1.0,
+   "words": [
+    {
+     "ru": "Где",
+     "fromMs": 120,
+     "toMs": 340
+    },
+    {
+     "ru": "ка́чели",
+     "fromMs": 440,
+     "toMs": 1060
+    }
+   ]
+  },
+  "city/activities/where.koshka": {
+   "file": "audio/city/activities/where.koshka.mp3",
+   "ms": 1196,
+   "text": "Где ко́шка?",
+   "en": "Where is it?",
+   "kind": "line",
+   "pack": "activities",
+   "speaker": "iskra",
+   "voiceId": "TeHM1srC510U976rvUis",
+   "lufs": -19.9,
+   "truePeak": -3.0,
+   "stt": "Где кошка?",
+   "sttMatch": 1.0,
+   "words": [
+    {
+     "ru": "Где",
+     "fromMs": 100,
+     "toMs": 320
+    },
+    {
+     "ru": "ко́шка",
+     "fromMs": 500,
+     "toMs": 980
+    }
+   ]
+  },
+  "city/activities/where.lebed": {
+   "file": "audio/city/activities/where.lebed.mp3",
+   "ms": 1090,
+   "text": "Где ле́бедь?",
+   "en": "Where is it?",
+   "kind": "line",
+   "pack": "activities",
+   "speaker": "iskra",
+   "voiceId": "TeHM1srC510U976rvUis",
+   "lufs": -19.1,
+   "truePeak": -7.8,
+   "stt": "Где лебедь?",
+   "sttMatch": 1.0,
+   "words": [
+    {
+     "ru": "Где",
+     "fromMs": 120,
+     "toMs": 360
+    },
+    {
+     "ru": "ле́бедь",
+     "fromMs": 460,
+     "toMs": 920
+    }
+   ]
+  },
+  "city/activities/where.lipa": {
+   "file": "audio/city/activities/where.lipa.mp3",
+   "ms": 1070,
+   "text": "Где ли́па?",
+   "en": "Where is it?",
+   "kind": "line",
+   "pack": "activities",
+   "speaker": "iskra",
+   "voiceId": "TeHM1srC510U976rvUis",
+   "lufs": -19.3,
+   "truePeak": -8.3,
+   "stt": "Где липа?",
+   "sttMatch": 1.0,
+   "words": [
+    {
+     "ru": "Где",
+     "fromMs": 120,
+     "toMs": 380
+    },
+    {
+     "ru": "ли́па",
+     "fromMs": 460,
+     "toMs": 860
+    }
+   ]
+  },
+  "city/activities/where.mashina": {
+   "file": "audio/city/activities/where.mashina.mp3",
+   "ms": 1177,
+   "text": "Где маши́на?",
+   "en": "Where is it?",
+   "kind": "line",
+   "pack": "activities",
+   "speaker": "iskra",
+   "voiceId": "TeHM1srC510U976rvUis",
+   "lufs": -19.3,
+   "truePeak": -6.3,
+   "stt": "Где машина?",
+   "sttMatch": 1.0,
+   "words": [
+    {
+     "ru": "Где",
+     "fromMs": 120,
+     "toMs": 340
+    },
+    {
+     "ru": "маши́на",
+     "fromMs": 420,
+     "toMs": 1000
+    }
+   ]
+  },
+  "city/activities/where.okno": {
+   "file": "audio/city/activities/where.okno.mp3",
+   "ms": 1020,
+   "text": "Где окно́?",
+   "en": "Where is it?",
+   "kind": "line",
+   "pack": "activities",
+   "speaker": "iskra",
+   "voiceId": "TeHM1srC510U976rvUis",
+   "lufs": -19.5,
+   "truePeak": -7.6,
+   "stt": "Где окно?",
+   "sttMatch": 1.0,
+   "words": [
+    {
+     "ru": "Где",
+     "fromMs": 120,
+     "toMs": 320
+    },
+    {
+     "ru": "окно́",
+     "fromMs": 420,
+     "toMs": 840
+    }
+   ]
+  },
+  "city/activities/where.pesochnitsa": {
+   "file": "audio/city/activities/where.pesochnitsa.mp3",
+   "ms": 1400,
+   "text": "Где песо́чница?",
+   "en": "Where is it?",
+   "kind": "line",
+   "pack": "activities",
+   "speaker": "iskra",
+   "voiceId": "TeHM1srC510U976rvUis",
+   "lufs": -20.0,
+   "truePeak": -5.2,
+   "stt": "Где песочница?",
+   "sttMatch": 1.0,
+   "words": [
+    {
+     "ru": "Где",
+     "fromMs": 120,
+     "toMs": 340
+    },
+    {
+     "ru": "песо́чница",
+     "fromMs": 400,
+     "toMs": 1220
+    }
+   ]
+  },
+  "city/activities/where.siren": {
+   "file": "audio/city/activities/where.siren.mp3",
+   "ms": 1060,
+   "text": "Где сире́нь?",
+   "en": "Where is it?",
+   "kind": "line",
+   "pack": "activities",
+   "speaker": "iskra",
+   "voiceId": "TeHM1srC510U976rvUis",
+   "lufs": -19.3,
+   "truePeak": -7.3,
+   "stt": "Где сирень?",
+   "sttMatch": 1.0,
+   "words": [
+    {
+     "ru": "Где",
+     "fromMs": 120,
+     "toMs": 340
+    },
+    {
+     "ru": "сире́нь",
+     "fromMs": 440,
+     "toMs": 900
+    }
+   ]
+  },
+  "city/activities/where.skameyka": {
+   "file": "audio/city/activities/where.skameyka.mp3",
+   "ms": 1205,
+   "text": "Где скаме́йка?",
+   "en": "Where is it?",
+   "kind": "line",
+   "pack": "activities",
+   "speaker": "iskra",
+   "voiceId": "TeHM1srC510U976rvUis",
+   "lufs": -19.7,
+   "truePeak": -5.4,
+   "stt": "Где скамейка?",
+   "sttMatch": 1.0,
+   "words": [
+    {
+     "ru": "Где",
+     "fromMs": 120,
+     "toMs": 320
+    },
+    {
+     "ru": "скаме́йка",
+     "fromMs": 400,
+     "toMs": 1020
+    }
+   ]
+  },
+  "city/activities/where.tsvety": {
+   "file": "audio/city/activities/where.tsvety.mp3",
+   "ms": 1110,
+   "text": "Где цветы́?",
+   "en": "Where is it?",
+   "kind": "line",
+   "pack": "activities",
+   "speaker": "iskra",
+   "voiceId": "TeHM1srC510U976rvUis",
+   "lufs": -19.9,
+   "truePeak": -5.4,
+   "stt": "Где цветы?",
+   "sttMatch": 1.0,
+   "words": [
+    {
+     "ru": "Где",
+     "fromMs": 120,
+     "toMs": 340
+    },
+    {
+     "ru": "цветы́",
+     "fromMs": 460,
+     "toMs": 920
+    }
+   ]
+  },
+  "city/activities/where.urna": {
+   "file": "audio/city/activities/where.urna.mp3",
+   "ms": 1146,
+   "text": "Где у́рна?",
+   "en": "Where is it?",
+   "kind": "line",
+   "pack": "activities",
+   "speaker": "iskra",
+   "voiceId": "TeHM1srC510U976rvUis",
+   "lufs": -19.7,
+   "truePeak": -7.1,
+   "stt": "Где урна?",
+   "sttMatch": 1.0,
+   "words": [
+    {
+     "ru": "Где",
+     "fromMs": 120,
+     "toMs": 360
+    },
+    {
+     "ru": "у́рна",
+     "fromMs": 640,
+     "toMs": 960
+    }
+   ]
+  },
+  "city/activities/where.velosiped": {
+   "file": "audio/city/activities/where.velosiped.mp3",
+   "ms": 1280,
+   "text": "Где велосипе́д?",
+   "en": "Where is it?",
+   "kind": "line",
+   "pack": "activities",
+   "speaker": "iskra",
+   "voiceId": "TeHM1srC510U976rvUis",
+   "lufs": -19.4,
+   "truePeak": -8.1,
+   "stt": "Где велосипед?",
+   "sttMatch": 1.0,
+   "words": [
+    {
+     "ru": "Где",
+     "fromMs": 140,
+     "toMs": 380
+    },
+    {
+     "ru": "велосипе́д",
+     "fromMs": 400,
+     "toMs": 1120
+    }
+   ]
+  }
+ }
+}

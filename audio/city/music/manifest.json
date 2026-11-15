@@ -1,0 +1,65 @@
+{
+ "tracks": {
+  "success": {
+   "id": "success",
+   "title": "Success sting",
+   "kind": "sting",
+   "file": "audio/city/music/success.mp3",
+   "seconds": 4.718,
+   "ms": 4718,
+   "level": {
+    "metric": "maxM",
+    "lufs": -22.0
+   },
+   "model": "music_v1"
+  },
+  "complete": {
+   "id": "complete",
+   "title": "Mission complete fanfare",
+   "kind": "sting",
+   "file": "audio/city/music/complete.mp3",
+   "seconds": 6.811,
+   "ms": 6811,
+   "level": {
+    "metric": "maxM",
+    "lufs": -22.0
+   },
+   "model": "music_v1"
+  },
+  "frozen": {
+   "id": "frozen",
+   "title": "Frozen courtyard",
+   "kind": "loop",
+   "file": "audio/city/music/frozen.mp3",
+   "seconds": 57.071,
+   "ms": 57071,
+   "level": {
+    "metric": "I",
+    "lufs": -29.0
+   },
+   "model": "music_v1",
+   "loopStartMs": 100.0,
+   "loopEndMs": 57171.043
+  },
+  "awake": {
+   "id": "awake",
+   "title": "Awake courtyard",
+   "kind": "loop",
+   "file": "audio/city/music/awake.mp3",
+   "seconds": 57.0,
+   "ms": 57000,
+   "level": {
+    "metric": "I",
+    "lufs": -29.0
+   },
+   "model": "music_v1",
+   "loopStartMs": 100.0,
+   "loopEndMs": 57100.272
+  }
+ },
+ "source": "ElevenLabs Music API (music_v1), Starter plan (commercial use granted); original instrumental, generated 2026-11-15",
+ "credit": "Music: synthetic (ElevenLabs Music)",
+ "shippable": true,
+ "tool": "lingolens/10-build/tools/render_city_music.py",
+ "loops": "play loops between loopStartMs and loopEndMs (100 ms of wrap-around on each side keeps them gapless)"
+}
