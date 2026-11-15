@@ -1,0 +1,567 @@
+{
+ "source": "ElevenLabs eleven_v4, Искра's Lens voice (the city's own pipeline, tools/render_city_objects.py). Paid plan: commercial use granted.",
+ "credit": "Voices: synthetic (ElevenLabs)",
+ "shippable": true,
+ "tool": "lingolens/10-build/tools/render_city_objects.py",
+ "note": "The game's ClipPlayer (quest/object-touch.ts) loads this list. 'reused' clips are the city's own word clips, copied by reference (the files stay in audio/city/).",
+ "clips": {
+  "city/objects/apteka": {
+   "file": "audio/city/objects/apteka.mp3",
+   "ms": 944,
+   "text": "Апте́ка.",
+   "en": "pharmacy",
+   "kind": "word",
+   "pack": "objects",
+   "speaker": "iskra",
+   "voiceId": "TeHM1srC510U976rvUis",
+   "lufs": -19.7,
+   "truePeak": -3.4,
+   "stt": "Аптека",
+   "sttMatch": 1.0,
+   "words": [
+    {
+     "ru": "Апте́ка",
+     "fromMs": 60,
+     "toMs": 740
+    }
+   ]
+  },
+  "city/objects/arka": {
+   "file": "audio/city/objects/arka.mp3",
+   "ms": 720,
+   "text": "А́рка.",
+   "en": "arch",
+   "kind": "word",
+   "pack": "objects",
+   "speaker": "iskra",
+   "voiceId": "TeHM1srC510U976rvUis",
+   "lufs": -20.9,
+   "truePeak": -5.0,
+   "stt": "Арка",
+   "sttMatch": 1.0,
+   "words": [
+    {
+     "ru": "А́рка",
+     "fromMs": 100,
+     "toMs": 520
+    }
+   ]
+  },
+  "city/objects/balkon": {
+   "file": "audio/city/objects/balkon.mp3",
+   "ms": 900,
+   "text": "Балко́н.",
+   "en": "balcony",
+   "kind": "word",
+   "pack": "objects",
+   "speaker": "iskra",
+   "voiceId": "TeHM1srC510U976rvUis",
+   "lufs": -20.2,
+   "truePeak": -4.2,
+   "stt": "Балкон",
+   "sttMatch": 1.0,
+   "words": [
+    {
+     "ru": "Балко́н",
+     "fromMs": 100,
+     "toMs": 760
+    }
+   ]
+  },
+  "city/objects/bashnya": {
+   "file": "audio/city/objects/bashnya.mp3",
+   "ms": 890,
+   "text": "Ба́шня.",
+   "en": "tower",
+   "kind": "word",
+   "pack": "objects",
+   "speaker": "iskra",
+   "voiceId": "TeHM1srC510U976rvUis",
+   "lufs": -19.4,
+   "truePeak": -5.2,
+   "stt": "Башня",
+   "sttMatch": 1.0,
+   "words": [
+    {
+     "ru": "Ба́шня",
+     "fromMs": 160,
+     "toMs": 740
+    }
+   ]
+  },
+  "city/objects/belyo": {
+   "file": "audio/city/objects/belyo.mp3",
+   "ms": 758,
+   "text": "Бельё.",
+   "en": "laundry",
+   "kind": "word",
+   "pack": "objects",
+   "speaker": "iskra",
+   "voiceId": "TeHM1srC510U976rvUis",
+   "lufs": -19.5,
+   "truePeak": -6.2,
+   "stt": "Бельё",
+   "sttMatch": 1.0,
+   "words": [
+    {
+     "ru": "Бельё",
+     "fromMs": 100,
+     "toMs": 580
+    }
+   ]
+  },
+  "city/objects/bereza": {
+   "file": "audio/city/objects/bereza.mp3",
+   "ms": 940,
+   "text": "Берёза.",
+   "en": "birch",
+   "kind": "word",
+   "pack": "objects",
+   "speaker": "iskra",
+   "voiceId": "TeHM1srC510U976rvUis",
+   "lufs": -19.4,
+   "truePeak": -7.7,
+   "stt": "Береза",
+   "sttMatch": 1.0,
+   "words": [
+    {
+     "ru": "Берёза",
+     "fromMs": 140,
+     "toMs": 720
+    }
+   ]
+  },
+  "city/objects/dom": {
+   "file": "audio/city/objects/dom.mp3",
+   "ms": 680,
+   "text": "Дом.",
+   "en": "house",
+   "kind": "word",
+   "pack": "objects",
+   "speaker": "iskra",
+   "voiceId": "TeHM1srC510U976rvUis",
+   "lufs": -19.0,
+   "truePeak": -5.7,
+   "stt": "Дом",
+   "sttMatch": 1.0,
+   "words": [
+    {
+     "ru": "Дом",
+     "fromMs": 160,
+     "toMs": 520
+    }
+   ]
+  },
+  "city/objects/gribok": {
+   "file": "audio/city/objects/gribok.mp3",
+   "ms": 910,
+   "text": "Грибо́к.",
+   "en": "mushroom shade",
+   "kind": "word",
+   "pack": "objects",
+   "speaker": "iskra",
+   "voiceId": "TeHM1srC510U976rvUis",
+   "lufs": -19.6,
+   "truePeak": -5.4,
+   "stt": "Грибок",
+   "sttMatch": 1.0,
+   "words": [
+    {
+     "ru": "Грибо́к",
+     "fromMs": 140,
+     "toMs": 720
+    }
+   ]
+  },
+  "city/objects/kacheli": {
+   "file": "audio/city/objects/kacheli.mp3",
+   "ms": 880,
+   "text": "Ка́чели.",
+   "en": "swing",
+   "kind": "word",
+   "pack": "objects",
+   "speaker": "iskra",
+   "voiceId": "TeHM1srC510U976rvUis",
+   "lufs": -19.6,
+   "truePeak": -3.7,
+   "stt": "Качели",
+   "sttMatch": 1.0,
+   "words": [
+    {
+     "ru": "Ка́чели",
+     "fromMs": 40,
+     "toMs": 740
+    }
+   ]
+  },
+  "city/objects/klassiki": {
+   "file": "audio/city/objects/klassiki.mp3",
+   "ms": 1010,
+   "text": "Кла́ссики.",
+   "en": "hopscotch",
+   "kind": "word",
+   "pack": "objects",
+   "speaker": "iskra",
+   "voiceId": "TeHM1srC510U976rvUis",
+   "lufs": -20.7,
+   "truePeak": -4.3,
+   "stt": "Классики",
+   "sttMatch": 1.0,
+   "words": [
+    {
+     "ru": "Кла́ссики",
+     "fromMs": 60,
+     "toMs": 800
+    }
+   ]
+  },
+  "city/objects/lavochka": {
+   "file": "audio/city/objects/lavochka.mp3",
+   "ms": 954,
+   "text": "Ла́вочка.",
+   "en": "little bench",
+   "kind": "word",
+   "pack": "objects",
+   "speaker": "iskra",
+   "voiceId": "TeHM1srC510U976rvUis",
+   "lufs": -20.1,
+   "truePeak": -4.8,
+   "stt": "Лавочка",
+   "sttMatch": 1.0,
+   "words": [
+    {
+     "ru": "Ла́вочка",
+     "fromMs": 120,
+     "toMs": 740
+    }
+   ]
+  },
+  "city/objects/lebed": {
+   "file": "audio/city/objects/lebed.mp3",
+   "ms": 800,
+   "text": "Ле́бедь.",
+   "en": "swan",
+   "kind": "word",
+   "pack": "objects",
+   "speaker": "iskra",
+   "voiceId": "TeHM1srC510U976rvUis",
+   "lufs": -20.2,
+   "truePeak": -7.5,
+   "stt": "Лебедь",
+   "sttMatch": 1.0,
+   "words": [
+    {
+     "ru": "Ле́бедь",
+     "fromMs": 120,
+     "toMs": 620
+    }
+   ]
+  },
+  "city/objects/lipa": {
+   "file": "audio/city/objects/lipa.mp3",
+   "ms": 757,
+   "text": "Ли́па.",
+   "en": "linden tree",
+   "kind": "word",
+   "pack": "objects",
+   "speaker": "iskra",
+   "voiceId": "TeHM1srC510U976rvUis",
+   "lufs": -20.1,
+   "truePeak": -5.8,
+   "stt": "Липа",
+   "sttMatch": 1.0,
+   "words": [
+    {
+     "ru": "Ли́па",
+     "fromMs": 140,
+     "toMs": 560
+    }
+   ]
+  },
+  "city/objects/luzha": {
+   "file": "audio/city/objects/luzha.mp3",
+   "ms": 790,
+   "text": "Лу́жа.",
+   "en": "puddle",
+   "kind": "word",
+   "pack": "objects",
+   "speaker": "iskra",
+   "voiceId": "TeHM1srC510U976rvUis",
+   "lufs": -19.7,
+   "truePeak": -7.8,
+   "stt": "Лужа",
+   "sttMatch": 1.0,
+   "words": [
+    {
+     "ru": "Лу́жа",
+     "fromMs": 140,
+     "toMs": 600
+    }
+   ]
+  },
+  "city/objects/nebo": {
+   "file": "audio/city/objects/nebo.mp3",
+   "ms": 820,
+   "text": "Не́бо.",
+   "en": "sky",
+   "kind": "word",
+   "pack": "objects",
+   "speaker": "iskra",
+   "voiceId": "TeHM1srC510U976rvUis",
+   "lufs": -20.0,
+   "truePeak": -7.3,
+   "stt": "Небо",
+   "sttMatch": 1.0,
+   "words": [
+    {
+     "ru": "Не́бо",
+     "fromMs": 180,
+     "toMs": 620
+    }
+   ]
+  },
+  "city/objects/pesochnitsa": {
+   "file": "audio/city/objects/pesochnitsa.mp3",
+   "ms": 1124,
+   "text": "Песо́чница.",
+   "en": "sandbox",
+   "kind": "word",
+   "pack": "objects",
+   "speaker": "iskra",
+   "voiceId": "TeHM1srC510U976rvUis",
+   "lufs": -20.4,
+   "truePeak": -3.4,
+   "stt": "Песочница",
+   "sttMatch": 1.0,
+   "words": [
+    {
+     "ru": "Песо́чница",
+     "fromMs": 40,
+     "toMs": 920
+    }
+   ]
+  },
+  "city/objects/pochta": {
+   "file": "audio/city/objects/pochta.mp3",
+   "ms": 730,
+   "text": "По́чта.",
+   "en": "post office",
+   "kind": "word",
+   "pack": "objects",
+   "speaker": "iskra",
+   "voiceId": "TeHM1srC510U976rvUis",
+   "lufs": -21.2,
+   "truePeak": -4.2,
+   "stt": "Почта",
+   "sttMatch": 1.0,
+   "words": [
+    {
+     "ru": "По́чта",
+     "fromMs": 40,
+     "toMs": 560
+    }
+   ]
+  },
+  "city/objects/relsy": {
+   "file": "audio/city/objects/relsy.mp3",
+   "ms": 878,
+   "text": "Ре́льсы.",
+   "en": "rails",
+   "kind": "word",
+   "pack": "objects",
+   "speaker": "iskra",
+   "voiceId": "TeHM1srC510U976rvUis",
+   "lufs": -19.9,
+   "truePeak": -5.9,
+   "stt": "Рельсы",
+   "sttMatch": 1.0,
+   "words": [
+    {
+     "ru": "Ре́льсы",
+     "fromMs": 120,
+     "toMs": 660
+    }
+   ]
+  },
+  "city/objects/siren": {
+   "file": "audio/city/objects/siren.mp3",
+   "ms": 865,
+   "text": "Сире́нь.",
+   "en": "lilac",
+   "kind": "word",
+   "pack": "objects",
+   "speaker": "iskra",
+   "voiceId": "TeHM1srC510U976rvUis",
+   "lufs": -18.8,
+   "truePeak": -7.7,
+   "stt": "Сирень",
+   "sttMatch": 1.0,
+   "words": [
+    {
+     "ru": "Сире́нь",
+     "fromMs": 160,
+     "toMs": 720
+    }
+   ]
+  },
+  "city/objects/urna": {
+   "file": "audio/city/objects/urna.mp3",
+   "ms": 710,
+   "text": "У́рна.",
+   "en": "litter bin",
+   "kind": "word",
+   "pack": "objects",
+   "speaker": "iskra",
+   "voiceId": "TeHM1srC510U976rvUis",
+   "lufs": -20.9,
+   "truePeak": -7.6,
+   "stt": "Урна",
+   "sttMatch": 1.0,
+   "words": [
+    {
+     "ru": "У́рна",
+     "fromMs": 80,
+     "toMs": 500
+    }
+   ]
+  },
+  "city/objects/vorota": {
+   "file": "audio/city/objects/vorota.mp3",
+   "ms": 940,
+   "text": "Воро́та.",
+   "en": "gate",
+   "kind": "word",
+   "pack": "objects",
+   "speaker": "iskra",
+   "voiceId": "TeHM1srC510U976rvUis",
+   "lufs": -19.4,
+   "truePeak": -5.6,
+   "stt": "Ворота",
+   "sttMatch": 1.0,
+   "words": [
+    {
+     "ru": "Воро́та",
+     "fromMs": 140,
+     "toMs": 740
+    }
+   ]
+  },
+  "city/word.chasy": {
+   "file": "audio/city/word.chasy.mp3",
+   "ms": 785,
+   "text": "Часы́.",
+   "en": "clock",
+   "kind": "word",
+   "pack": "city",
+   "reused": true
+  },
+  "city/word.derevo": {
+   "file": "audio/city/word.derevo.mp3",
+   "ms": 886,
+   "text": null,
+   "en": null,
+   "kind": "word",
+   "pack": "city",
+   "reused": true
+  },
+  "city/word.fonar": {
+   "file": "audio/city/word.fonar.mp3",
+   "ms": 740,
+   "text": null,
+   "en": null,
+   "kind": "word",
+   "pack": "city",
+   "reused": true
+  },
+  "city/word.gazeta": {
+   "file": "audio/city/word.gazeta.mp3",
+   "ms": 940,
+   "text": "Газе́та.",
+   "en": "newspaper",
+   "kind": "word",
+   "pack": "city",
+   "reused": true
+  },
+  "city/word.khleb": {
+   "file": "audio/city/word.khleb.mp3",
+   "ms": 710,
+   "text": "Хлеб.",
+   "en": "bread",
+   "kind": "word",
+   "pack": "city",
+   "reused": true
+  },
+  "city/word.koshka": {
+   "file": "audio/city/word.koshka.mp3",
+   "ms": 750,
+   "text": null,
+   "en": null,
+   "kind": "word",
+   "pack": "city",
+   "reused": true
+  },
+  "city/word.mashina": {
+   "file": "audio/city/word.mashina.mp3",
+   "ms": 960,
+   "text": "Маши́на.",
+   "en": "car",
+   "kind": "word",
+   "pack": "city",
+   "reused": true
+  },
+  "city/word.okno": {
+   "file": "audio/city/word.okno.mp3",
+   "ms": 787,
+   "text": null,
+   "en": null,
+   "kind": "word",
+   "pack": "city",
+   "reused": true
+  },
+  "city/word.ostanovka": {
+   "file": "audio/city/word.ostanovka.mp3",
+   "ms": 1080,
+   "text": "Остано́вка.",
+   "en": "stop",
+   "kind": "word",
+   "pack": "city",
+   "reused": true
+  },
+  "city/word.skameyka": {
+   "file": "audio/city/word.skameyka.mp3",
+   "ms": 1070,
+   "text": null,
+   "en": null,
+   "kind": "word",
+   "pack": "city",
+   "reused": true
+  },
+  "city/word.tsvety": {
+   "file": "audio/city/word.tsvety.mp3",
+   "ms": 880,
+   "text": "Цветы́.",
+   "en": "flowers",
+   "kind": "word",
+   "pack": "city",
+   "reused": true
+  },
+  "city/word.ulitsa": {
+   "file": "audio/city/word.ulitsa.mp3",
+   "ms": 810,
+   "text": "У́лица.",
+   "en": "street",
+   "kind": "word",
+   "pack": "city",
+   "reused": true
+  },
+  "city/word.velosiped": {
+   "file": "audio/city/word.velosiped.mp3",
+   "ms": 1140,
+   "text": "Велосипе́д.",
+   "en": "bicycle",
+   "kind": "word",
+   "pack": "city",
+   "reused": true
+  }
+ }
+}

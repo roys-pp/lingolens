@@ -1,0 +1,16 @@
+{
+ "width": 2048,
+ "height": 580,
+ "cropFromElevationDeg": -12,
+ "v0": 0.4333,
+ "sunU": 0.6074,
+ "sunV": 0.457,
+ "sunElevationDeg": 7.7,
+ "sunAzImgDeg": 218.7,
+ "horizonLinear": [
+  0.3248,
+  0.3406,
+  0.3541
+ ],
+ "exposure": 0.3883
+}
