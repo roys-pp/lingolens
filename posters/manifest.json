@@ -6,12 +6,12 @@
       "code": "ru",
       "source": "poster",
       "png": "ru.png",
-      "png_sha1": "b023f1209a4b",
+      "png_sha1": "b0f78cfefa38",
       "poster": {
         "file": "ru.webp",
         "w": 686,
         "h": 960,
-        "bytes": 51630,
+        "bytes": 50214,
         "cap": 153600,
         "quality": 88
       },
@@ -19,29 +19,7 @@
         "file": "ru-card.webp",
         "w": 256,
         "h": 358,
-        "bytes": 15368,
-        "cap": 40960,
-        "quality": 88
-      }
-    },
-    "en": {
-      "code": "en",
-      "source": "poster",
-      "png": "en.png",
-      "png_sha1": "ea91d74804bc",
-      "poster": {
-        "file": "en.webp",
-        "w": 686,
-        "h": 960,
-        "bytes": 60234,
-        "cap": 153600,
-        "quality": 88
-      },
-      "card": {
-        "file": "en-card.webp",
-        "w": 256,
-        "h": 358,
-        "bytes": 16640,
+        "bytes": 14392,
         "cap": 40960,
         "quality": 88
       }
@@ -50,12 +28,12 @@
       "code": "zh",
       "source": "poster",
       "png": "zh.png",
-      "png_sha1": "aeffe7d9dbfc",
+      "png_sha1": "12664312f07a",
       "poster": {
         "file": "zh.webp",
         "w": 686,
         "h": 960,
-        "bytes": 47518,
+        "bytes": 51412,
         "cap": 153600,
         "quality": 88
       },
@@ -63,7 +41,7 @@
         "file": "zh-card.webp",
         "w": 256,
         "h": 358,
-        "bytes": 11934,
+        "bytes": 12388,
         "cap": 40960,
         "quality": 88
       }
@@ -72,12 +50,12 @@
       "code": "hi",
       "source": "poster",
       "png": "hi.png",
-      "png_sha1": "ee75c3109c8e",
+      "png_sha1": "f5dc5eec7b2d",
       "poster": {
         "file": "hi.webp",
         "w": 686,
         "h": 960,
-        "bytes": 54068,
+        "bytes": 43040,
         "cap": 153600,
         "quality": 88
       },
@@ -85,7 +63,7 @@
         "file": "hi-card.webp",
         "w": 256,
         "h": 358,
-        "bytes": 14804,
+        "bytes": 12598,
         "cap": 40960,
         "quality": 88
       }
@@ -94,12 +72,12 @@
       "code": "es",
       "source": "poster",
       "png": "es.png",
-      "png_sha1": "7f3f1601ae78",
+      "png_sha1": "7cb38dbe87c1",
       "poster": {
         "file": "es.webp",
         "w": 686,
         "h": 960,
-        "bytes": 45752,
+        "bytes": 44958,
         "cap": 153600,
         "quality": 88
       },
@@ -107,7 +85,7 @@
         "file": "es-card.webp",
         "w": 256,
         "h": 358,
-        "bytes": 13276,
+        "bytes": 13370,
         "cap": 40960,
         "quality": 88
       }
@@ -116,12 +94,12 @@
       "code": "ar",
       "source": "poster",
       "png": "ar.png",
-      "png_sha1": "d530643ee11d",
+      "png_sha1": "0ce1ff855963",
       "poster": {
         "file": "ar.webp",
         "w": 686,
         "h": 960,
-        "bytes": 76906,
+        "bytes": 61698,
         "cap": 153600,
         "quality": 88
       },
@@ -129,7 +107,7 @@
         "file": "ar-card.webp",
         "w": 256,
         "h": 358,
-        "bytes": 17804,
+        "bytes": 14884,
         "cap": 40960,
         "quality": 88
       }
@@ -138,12 +116,12 @@
       "code": "fr",
       "source": "poster",
       "png": "fr.png",
-      "png_sha1": "7aae4d4ae7ee",
+      "png_sha1": "9243b3dcbaaa",
       "poster": {
         "file": "fr.webp",
         "w": 686,
         "h": 960,
-        "bytes": 47612,
+        "bytes": 50738,
         "cap": 153600,
         "quality": 88
       },
@@ -151,7 +129,7 @@
         "file": "fr-card.webp",
         "w": 256,
         "h": 358,
-        "bytes": 12750,
+        "bytes": 13660,
         "cap": 40960,
         "quality": 88
       }
@@ -160,12 +138,12 @@
       "code": "bn",
       "source": "poster",
       "png": "bn.png",
-      "png_sha1": "4c3b39af867f",
+      "png_sha1": "69cd3e03e7b0",
       "poster": {
         "file": "bn.webp",
         "w": 686,
         "h": 960,
-        "bytes": 62174,
+        "bytes": 54466,
         "cap": 153600,
         "quality": 88
       },
@@ -173,7 +151,7 @@
         "file": "bn-card.webp",
         "w": 256,
         "h": 358,
-        "bytes": 15436,
+        "bytes": 14508,
         "cap": 40960,
         "quality": 88
       }
@@ -182,12 +160,12 @@
       "code": "pt",
       "source": "poster",
       "png": "pt.png",
-      "png_sha1": "5e0ebef1d896",
+      "png_sha1": "14d8711f9e1e",
       "poster": {
         "file": "pt.webp",
         "w": 686,
         "h": 960,
-        "bytes": 51372,
+        "bytes": 55126,
         "cap": 153600,
         "quality": 88
       },
@@ -195,7 +173,7 @@
         "file": "pt-card.webp",
         "w": 256,
         "h": 358,
-        "bytes": 14408,
+        "bytes": 15594,
         "cap": 40960,
         "quality": 88
       }
@@ -204,12 +182,12 @@
       "code": "id",
       "source": "poster",
       "png": "id.png",
-      "png_sha1": "2bd3e92630e7",
+      "png_sha1": "8290bb8e1a10",
       "poster": {
         "file": "id.webp",
         "w": 686,
         "h": 960,
-        "bytes": 41304,
+        "bytes": 42002,
         "cap": 153600,
         "quality": 88
       },
@@ -217,7 +195,29 @@
         "file": "id-card.webp",
         "w": 256,
         "h": 358,
-        "bytes": 12816,
+        "bytes": 12684,
+        "cap": 40960,
+        "quality": 88
+      }
+    },
+    "ur": {
+      "code": "ur",
+      "source": "poster",
+      "png": "ur.png",
+      "png_sha1": "bdd7df3f2204",
+      "poster": {
+        "file": "ur.webp",
+        "w": 686,
+        "h": 960,
+        "bytes": 38280,
+        "cap": 153600,
+        "quality": 88
+      },
+      "card": {
+        "file": "ur-card.webp",
+        "w": 256,
+        "h": 358,
+        "bytes": 11612,
         "cap": 40960,
         "quality": 88
       }
@@ -232,15 +232,6 @@
       "ink_h": 52,
       "lines": 1,
       "bytes": 3362
-    },
-    "en": {
-      "file": "en-label.webp",
-      "w": 196,
-      "h": 62,
-      "em_px": 52,
-      "ink_h": 50,
-      "lines": 1,
-      "bytes": 2844
     },
     "zh": {
       "file": "zh-label.webp",
@@ -313,6 +304,15 @@
       "ink_h": 90,
       "lines": 2,
       "bytes": 5582
+    },
+    "ur": {
+      "file": "ur-label.webp",
+      "w": 100,
+      "h": 72,
+      "em_px": 56,
+      "ink_h": 60,
+      "lines": 1,
+      "bytes": 1598
     }
   },
   "labels_about": "Native name labels, gold on transparent, drawn at 2000 px per metre (worlds.ts LABELS); em_px is the em at 1x, ink_h the ink height in px."

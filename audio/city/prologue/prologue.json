@@ -5,13 +5,13 @@
  "clips": {
   "p1": {
    "file": "audio/city/prologue/p1.mp3",
-   "ms": 5394,
-   "text": "You are an apprentice word wizard. In your world, a word said with meaning is a spell."
+   "ms": 6877,
+   "text": "You are an apprentice word wizard, and wizards do not grow old. A word said with meaning is a spell."
   },
   "p2": {
    "file": "audio/city/prologue/p2.mp3",
-   "ms": 3830,
-   "text": "Tonight you stand in an old courtyard in Saint Petersburg, Russia. The lamps are dark."
+   "ms": 5644,
+   "text": "Tonight you are summoned to an old courtyard in Moscow, Russia. The lamps are dark."
   },
   "p3": {
    "file": "audio/city/prologue/p3.mp3",
@@ -29,5 +29,5 @@
    "text": "Meet Eeskra, a spark of living language. She will be your guide."
   }
  },
- "note": "2026-11-15 lane J: trimmed at sentence pauses (p2 keeps sentences 1-2, p5 starts at Meet Iskra) and sped 1.15x with ffmpeg atempo (pitch kept), offline, no paid API. Originals: .tmp/lingolens/ll/J/orig_prologue. Re-running render_prologue_voices.py --force restores the long takes."
+ "note": "2026-11-15 lane J: trimmed at sentence pauses (p2 keeps sentences 1-2, p5 starts at Meet Iskra) and sped 1.15x with ffmpeg atempo (pitch kept), offline, no paid API. Originals: .tmp/lingolens/ll/J/orig_prologue. Re-running render_prologue_voices.py --force restores the long takes. 2026-11-15 night: p2 re-voiced for the world's new name (Moscow; same voice and model, take 1, 1.15x). 2026-11-16: p1 and p2 re-voiced for the series frame (\"wizards do not grow old\", \"you are summoned\"; same voice and model, p1 take 1, p2 take 2, 1.15x); the earlier files are in .tmp/lingolens/rc5/prologue_backup."
 }
