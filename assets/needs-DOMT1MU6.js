@@ -1,0 +1,1 @@
+function o(n,e){return n!=null&&e.needVoice!==!1}function u(n,e){return n!=null&&e.needSound!==!1}function d(n){return{needVoice:n.voice===null||n.voice===void 0,needSound:n.sound===null||n.sound===void 0}}export{u as a,o as m,d as n};

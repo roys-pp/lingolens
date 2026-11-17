@@ -94,12 +94,12 @@
       "code": "ar",
       "source": "poster",
       "png": "ar.png",
-      "png_sha1": "0ce1ff855963",
+      "png_sha1": "59b49edb485a",
       "poster": {
         "file": "ar.webp",
         "w": 686,
         "h": 960,
-        "bytes": 61698,
+        "bytes": 75468,
         "cap": 153600,
         "quality": 88
       },
@@ -107,7 +107,7 @@
         "file": "ar-card.webp",
         "w": 256,
         "h": 358,
-        "bytes": 14884,
+        "bytes": 17528,
         "cap": 40960,
         "quality": 88
       }

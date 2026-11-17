@@ -762,7 +762,7 @@
   "city/activities/line.rank.up": {
    "file": "audio/city/activities/line.rank.up.mp3",
    "ms": 1260,
-   "text": "Но́вый ра́нг!",
+   "text": "Но́вый ранг!",
    "en": "New rank!",
    "kind": "line",
    "pack": "activities",
@@ -779,7 +779,7 @@
      "toMs": 520
     },
     {
-     "ru": "ра́нг",
+     "ru": "ранг",
      "fromMs": 600,
      "toMs": 1040
     }

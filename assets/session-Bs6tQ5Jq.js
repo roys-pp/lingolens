@@ -1,0 +1,1 @@
+class r{constructor(){this.on=!1,this.listeners=new Set}get preview(){return this.on}setPreview(e){if(e!==this.on){this.on=e;for(const s of[...this.listeners])try{s(e)}catch(t){console.warn("[session] a listener failed",t)}}}onChange(e){return this.listeners.add(e),()=>this.listeners.delete(e)}}const i=new r;export{i as S};
