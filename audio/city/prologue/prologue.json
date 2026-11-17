@@ -27,6 +27,51 @@
    "file": "audio/city/prologue/p5.mp3",
    "ms": 4051,
    "text": "Meet Eeskra, a spark of living language. She will be your guide."
+  },
+  "h1": {
+   "file": "audio/city/prologue/h1.mp3",
+   "ms": 6898,
+   "text": "Moscow keeps its story in words. Now the Silence is taking them, from the very first."
+  },
+  "h2": {
+   "file": "audio/city/prologue/h2.mp3",
+   "ms": 11040,
+   "text": "Where it reaches, people stop understanding each other. A feast cannot begin. A book cannot be printed. A street on fire cannot call for help."
+  },
+  "h3": {
+   "file": "audio/city/prologue/h3.mp3",
+   "ms": 7200,
+   "text": "You are a word wizard, and wizards do not grow old. A word said with meaning is a spell."
+  },
+  "h4": {
+   "file": "audio/city/prologue/h4.mp3",
+   "ms": 6560,
+   "text": "Live Moscow’s story from its first day. Learn the words each moment needed, and give them back."
+  },
+  "h5": {
+   "file": "audio/city/prologue/h5.mp3",
+   "ms": 6080,
+   "text": "Your journey begins where Moscow began: at a feast, in the year 1147."
+  },
+  "h11": {
+   "file": "audio/city/prologue/h11.mp3",
+   "ms": 9920,
+   "text": "Moscow, 1147. Prince Yuri has invited his ally to a feast. The chronicle that tells of it is the first to name the city."
+  },
+  "h12": {
+   "file": "audio/city/prologue/h12.mp3",
+   "ms": 9280,
+   "text": "Moscow, 1564. At the Print Yard, Ivan Fyodorov is about to finish the first dated book printed in Moscow."
+  },
+  "h13": {
+   "file": "audio/city/prologue/h13.mp3",
+   "ms": 8880,
+   "text": "Moscow, September 1812. Napoleon’s army has entered the city, and fires are breaking out in every street."
+  },
+  "today": {
+   "file": "audio/city/prologue/today.mp3",
+   "ms": 8640,
+   "text": "Moscow, today. You have carried its words through nine centuries. One old courtyard is still silent."
   }
  },
  "note": "2026-11-15 lane J: trimmed at sentence pauses (p2 keeps sentences 1-2, p5 starts at Meet Iskra) and sped 1.15x with ffmpeg atempo (pitch kept), offline, no paid API. Originals: .tmp/lingolens/ll/J/orig_prologue. Re-running render_prologue_voices.py --force restores the long takes. 2026-11-15 night: p2 re-voiced for the world's new name (Moscow; same voice and model, take 1, 1.15x). 2026-11-16: p1 and p2 re-voiced for the series frame (\"wizards do not grow old\", \"you are summoned\"; same voice and model, p1 take 1, p2 take 2, 1.15x); the earlier files are in .tmp/lingolens/rc5/prologue_backup."

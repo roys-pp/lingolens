@@ -1,0 +1,123 @@
+{
+ "note": "The history journey's era sounds (tools/render_era_sounds.py): spot sounds and one bed per era; loops play between loopStartMs and loopEndMs.",
+ "clips": {
+  "bed.1147": {
+   "id": "bed.1147",
+   "kind": "bed",
+   "loop": true,
+   "file": "audio/city/eras/bed.1147.mp3",
+   "seconds": 19.99,
+   "level": {
+    "metric": "integrated",
+    "lufs": -32.0
+   },
+   "loopStartMs": 100.0,
+   "loopEndMs": 20090.0
+  },
+  "bed.1564": {
+   "id": "bed.1564",
+   "kind": "bed",
+   "loop": true,
+   "file": "audio/city/eras/bed.1564.mp3",
+   "seconds": 19.99,
+   "level": {
+    "metric": "integrated",
+    "lufs": -32.0
+   },
+   "loopStartMs": 100.0,
+   "loopEndMs": 20090.0
+  },
+  "bed.1812": {
+   "id": "bed.1812",
+   "kind": "loop",
+   "loop": true,
+   "file": "audio/city/eras/bed.1812.mp3",
+   "seconds": 19.99,
+   "level": {
+    "metric": "integrated",
+    "lufs": -26.0
+   },
+   "loopStartMs": 100.0,
+   "loopEndMs": 20090.0
+  },
+  "bed.1812.dawn": {
+   "id": "bed.1812.dawn",
+   "kind": "bed",
+   "loop": true,
+   "file": "audio/city/eras/bed.1812.dawn.mp3",
+   "seconds": 19.99,
+   "level": {
+    "metric": "integrated",
+    "lufs": -32.0
+   },
+   "loopStartMs": 100.0,
+   "loopEndMs": 20090.0
+  },
+  "bell": {
+   "id": "bell",
+   "kind": "oneshot",
+   "loop": false,
+   "file": "audio/city/eras/bell.mp3",
+   "seconds": 4.998,
+   "level": {
+    "metric": "loudest-momentary",
+    "lufs": -20.0
+   }
+  },
+  "chime": {
+   "id": "chime",
+   "kind": "oneshot",
+   "loop": false,
+   "file": "audio/city/eras/chime.mp3",
+   "seconds": 1.756,
+   "level": {
+    "metric": "loudest-momentary",
+    "lufs": -20.0
+   }
+  },
+  "clatter": {
+   "id": "clatter",
+   "kind": "oneshot",
+   "loop": false,
+   "file": "audio/city/eras/clatter.mp3",
+   "seconds": 0.822,
+   "level": {
+    "metric": "loudest-momentary",
+    "lufs": -20.0
+   }
+  },
+  "hiss": {
+   "id": "hiss",
+   "kind": "oneshot",
+   "loop": false,
+   "file": "audio/city/eras/hiss.mp3",
+   "seconds": 2.2,
+   "level": {
+    "metric": "loudest-momentary",
+    "lufs": -20.0
+   }
+  },
+  "thud": {
+   "id": "thud",
+   "kind": "oneshot",
+   "loop": false,
+   "file": "audio/city/eras/thud.mp3",
+   "seconds": 2.892,
+   "level": {
+    "metric": "loudest-momentary",
+    "lufs": -20.0
+   }
+  },
+  "whoosh": {
+   "id": "whoosh",
+   "kind": "oneshot",
+   "loop": false,
+   "file": "audio/city/eras/whoosh.mp3",
+   "seconds": 1.496,
+   "level": {
+    "metric": "loudest-momentary",
+    "lufs": -20.0
+   }
+  }
+ }
+}

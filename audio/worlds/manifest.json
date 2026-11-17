@@ -2,7 +2,7 @@
  "source": "ElevenLabs eleven_v4, one native Voice Library voice per language (lane L5, 2026-11-13). Paid plan (Starter): commercial use granted.",
  "credit": "Voices: synthetic (ElevenLabs)",
  "shippable": true,
- "generated": "2026-11-15T22:53:31",
+ "generated": "2026-11-17T12:44:33",
  "tool": "lingolens/10-build/tools/render_city_packs.py --pack worlds",
  "note": "The greeting each coming-soon world sheet plays (src/shell/worlds.ts greeting.clip); cut line 3.",
  "clips": {

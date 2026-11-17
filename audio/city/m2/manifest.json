@@ -2,7 +2,7 @@
  "source": "ElevenLabs eleven_v4, native Russian Voice Library voices (coordinator picks, lane L5, 2026-11-13); Искра's words and tiles in her own voice (Zlata Belova). Paid plan (Starter): commercial use granted.",
  "credit": "Voices: synthetic (ElevenLabs)",
  "shippable": true,
- "generated": "2026-11-15T15:13:43",
+ "generated": "2026-11-17T12:44:33",
  "tool": "lingolens/10-build/tools/render_city_packs.py --pack m2",
  "voiceStandard": "trimmed, atempo-paced, RMS -20 dBFS with a -3 dBFS peak ceiling, 44.1 kHz mono MP3 -q:a 5",
  "voices": [
