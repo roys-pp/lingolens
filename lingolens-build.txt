@@ -1,1 +1,1 @@
-LingoLens public build 20261118T153255Z from source 61b59e6 with uncommitted changes (a bare link opens: lingolens)
+LingoLens public build 20261118T164417Z from source 218f262 with uncommitted changes (a bare link opens: lingolens)
