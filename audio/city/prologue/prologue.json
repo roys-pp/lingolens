@@ -30,8 +30,8 @@
   },
   "h1": {
    "file": "audio/city/prologue/h1.mp3",
-   "ms": 6898,
-   "text": "Moscow keeps its story in words. Now the Silence is taking them, from the very first."
+   "ms": 10142,
+   "text": "This is Moscow, today, and it has gone quiet. A curse called the Silence is stealing its words, from its very first day."
   },
   "h2": {
    "file": "audio/city/prologue/h2.mp3",
@@ -40,18 +40,18 @@
   },
   "h3": {
    "file": "audio/city/prologue/h3.mp3",
-   "ms": 7200,
-   "text": "You are a word wizard, and wizards do not grow old. A word said with meaning is a spell."
+   "ms": 7901,
+   "text": "You are an apprentice word wizard, and wizards do not grow old. A word said with meaning is a spell."
   },
   "h4": {
    "file": "audio/city/prologue/h4.mp3",
-   "ms": 6560,
-   "text": "Live Moscow’s story from its first day. Learn the words each moment needed, and give them back."
+   "ms": 9440,
+   "text": "First, you train. Iskra, a spark of living light, will teach you in her Study, and every word you learn makes you stronger."
   },
   "h5": {
    "file": "audio/city/prologue/h5.mp3",
-   "ms": 6080,
-   "text": "Your journey begins where Moscow began: at a feast, in the year 1147."
+   "ms": 10241,
+   "text": "Then you step through her paintings into Moscow’s past, and give each moment its words back. It begins in 1147, at a feast."
   },
   "h11": {
    "file": "audio/city/prologue/h11.mp3",
@@ -75,8 +75,8 @@
   },
   "study": {
    "file": "audio/city/prologue/study.mp3",
-   "ms": 8320,
-   "text": "This is Iskra's study, a room outside time. Each painting on its wall is a door to a year of Moscow."
+   "ms": 12000,
+   "text": "Welcome, apprentice. This is Iskra's study, a room outside time, where your training begins. Each painting on its wall is a door to a year of Moscow."
   },
   "next11": {
    "file": "audio/city/prologue/next11.mp3",
