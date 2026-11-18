@@ -2,7 +2,7 @@
  "source": "ElevenLabs, Starter plan (commercial use granted). Voices: eleven_v4, native Russian Voice Library voices (coordinator picks, lane L5); Искра's corner line in her own voice. Sounds: sound generation, eleven_text_to_sound_v3 for one-shots and eleven_text_to_sound_v2 with loop for the bed.",
  "credit": "Voices and sounds: synthetic (ElevenLabs)",
  "shippable": true,
- "generated": "2026-11-17T12:44:33",
+ "generated": "2026-11-17T21:32:19",
  "tool": "lingolens/10-build/tools/render_city_packs.py --pack street / --pack sounds",
  "envelopeHz": 30,
  "envelopeScale": "dB-linear: 0 at -50 dBFS or below, 1 at the clip's loudest 1/30 s frame",

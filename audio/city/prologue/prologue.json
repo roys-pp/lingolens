@@ -55,23 +55,43 @@
   },
   "h11": {
    "file": "audio/city/prologue/h11.mp3",
-   "ms": 9920,
-   "text": "Moscow, 1147. Prince Yuri has invited his ally to a feast. The chronicle that tells of it is the first to name the city."
+   "ms": 16641,
+   "text": "Moscow, 1147. Prince Yuri of Suzdal is at war for Kyiv, and he has invited his ally Svyatoslav to a place called Moscow. A chronicler writes the invitation down: the first time we know of that the city is named."
   },
   "h12": {
    "file": "audio/city/prologue/h12.mp3",
-   "ms": 9280,
-   "text": "Moscow, 1564. At the Print Yard, Ivan Fyodorov is about to finish the first dated book printed in Moscow."
+   "ms": 20320,
+   "text": "Moscow, 1564. Church books copied by hand were full of mistakes, so Tsar Ivan ordered a house built for printing them. Here at the Print Yard, after almost a year of work, Ivan Fyodorov and Pyotr Mstislavets are finishing Moscow’s first dated printed book."
   },
   "h13": {
    "file": "audio/city/prologue/h13.mp3",
-   "ms": 8880,
-   "text": "Moscow, September 1812. Napoleon’s army has entered the city, and fires are breaking out in every street."
+   "ms": 17600,
+   "text": "Moscow, September 1812. Napoleon has invaded Russia, and after the battle of Borodino the Russian army has left Moscow without a fight. Most of its people have gone. Now the French march in, and fires break out across the city."
   },
   "today": {
    "file": "audio/city/prologue/today.mp3",
    "ms": 8640,
    "text": "Moscow, today. You have carried its words through nine centuries. One old courtyard is still silent."
+  },
+  "study": {
+   "file": "audio/city/prologue/study.mp3",
+   "ms": 8320,
+   "text": "This is Iskra's study, a room outside time. Each painting on its wall is a door to a year of Moscow."
+  },
+  "next11": {
+   "file": "audio/city/prologue/next11.mp3",
+   "ms": 15120,
+   "text": "In 1156 Yuri gave the hill wooden walls. That fort grew into the Kremlin. In 1547 Ivan was crowned the first tsar. The Kremlin's walls of 1495 stand today."
+  },
+  "next12": {
+   "file": "audio/city/prologue/next12.mp3",
+   "ms": 13520,
+   "text": "Both printers were driven out of Moscow. Fyodorov printed a primer in Lviv, 1574. In 1581 he printed the Bible in Ostroh. The Print Yard now houses a university."
+  },
+  "next13": {
+   "file": "audio/city/prologue/next13.mp3",
+   "ms": 13440,
+   "text": "Napoleon waited in vain for peace. He left on 19 October and lost his army. By 1817 Moscow had a new city plan. Its rubble made a grotto by the Kremlin."
   }
  },
  "note": "2026-11-15 lane J: trimmed at sentence pauses (p2 keeps sentences 1-2, p5 starts at Meet Iskra) and sped 1.15x with ffmpeg atempo (pitch kept), offline, no paid API. Originals: .tmp/lingolens/ll/J/orig_prologue. Re-running render_prologue_voices.py --force restores the long takes. 2026-11-15 night: p2 re-voiced for the world's new name (Moscow; same voice and model, take 1, 1.15x). 2026-11-16: p1 and p2 re-voiced for the series frame (\"wizards do not grow old\", \"you are summoned\"; same voice and model, p1 take 1, p2 take 2, 1.15x); the earlier files are in .tmp/lingolens/rc5/prologue_backup."

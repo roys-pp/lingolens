@@ -53,6 +53,19 @@
    "loopStartMs": 100.0,
    "loopEndMs": 20090.0
   },
+  "bed.study": {
+   "id": "bed.study",
+   "kind": "bed",
+   "loop": true,
+   "file": "audio/city/eras/bed.study.mp3",
+   "seconds": 19.99,
+   "level": {
+    "metric": "integrated",
+    "lufs": -32.0
+   },
+   "loopStartMs": 100.0,
+   "loopEndMs": 20090.0
+  },
   "bell": {
    "id": "bell",
    "kind": "oneshot",
